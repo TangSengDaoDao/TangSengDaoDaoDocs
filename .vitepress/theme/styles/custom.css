@@ -1,0 +1,10 @@
+.docs-cn-github-release-tag {
+	font-size: 14px;
+	font-weight: bold;
+	padding: 4px 6px;
+	margin-left: 6px;
+	background: var(--vp-button-brand-bg);
+	color: white;
+	border-radius: 6px;
+	vertical-align: middle;
+}
