@@ -1,25 +1,17 @@
-# iOS
+# Android
 
 
 # 项目编译
 
 
 ## 源码编译
+![](https://img.shields.io/badge/platform-android-blue.svg)  ![](https://img.shields.io/badge/compileSdkVersion-33-blue.svg) ![](https://img.shields.io/badge/minSdkVersion-23-blue.svg) ![](https://img.shields.io/hexpm/l/plug.svg)
+![](screenshot/logo.png)
 
 ```shell
-git clone https://github.com/TangSengDaoDao/TangSengDaoDaoiOS.git
+git clone https://github.com/TangSengDaoDao/TangSengDaoDaoAndroid.git
 
-cd TangSengDaoDaoiOS 
+Android studio Open TangSengDaoDaoAndroid 
 
-pod install
-
-
-```
-
-## 打开并运行
-
-```shell
-
-open  TangSengDaoDaoiOS.xcworkspace
 
 ```
