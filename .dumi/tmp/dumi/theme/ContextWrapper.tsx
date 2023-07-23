@@ -48,7 +48,7 @@ export default function DumiContextWrapper() {
       locales,
       loading,
       setLoading,
-      themeConfig: {"footer":"Copyright © 2023 | Powered by 唐僧叨叨 | <a href='https://beian.miit.gov.cn/' style='color:gray'>ICP备案号：沪ICP备2021032718号-2</a>","prefersColor":{"default":"light","switch":true},"nprogress":true,"logo":"/logo.svg","name":"唐僧叨叨","hd":{"rules":[]},"socialLinks":{"github":"https://github.com/WuKongIM/WuKongIM"}},
+      themeConfig: {"footer":"Copyright © 2023 | Powered by 唐僧叨叨 | <a href='https://beian.miit.gov.cn/' style='color:gray'>ICP备案号：沪ICP备2021032718号-4</a>","prefersColor":{"default":"light","switch":true},"nprogress":true,"logo":"/logo.svg","name":"唐僧叨叨","hd":{"rules":[]},"socialLinks":{"github":"https://github.com/WuKongIM/WuKongIM"}},
     }}>
       {outlet}
     </SiteContext.Provider>

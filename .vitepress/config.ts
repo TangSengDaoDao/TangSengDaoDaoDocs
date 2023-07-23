@@ -50,7 +50,7 @@ export default defineConfig({
     ],
 		footer: {
 			message: `本文档内容版权属于 上海信必达网络科技有限公司，保留所有权利`,
-			copyright: "Copyright © 2023 | Powered by 唐僧叨叨 | ICP备案号：沪ICP备2021032718号-2",
+			copyright: "Copyright © 2023 | Powered by 唐僧叨叨 | ICP备案号：沪ICP备2021032718号-4",
 		},
 		search: {
 			provider: "local",

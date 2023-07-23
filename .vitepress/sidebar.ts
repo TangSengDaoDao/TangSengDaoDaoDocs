@@ -7,15 +7,19 @@ export const sidebar: DefaultTheme.Sidebar = {
 			collapsed: false,
 			items: [
 				{ text: "什么是唐僧叨叨", link: "/guide/" },
-				{ text: "Demo下载", link: "/guide/demo" },
-				{ text: "快速搭建体验", link: "/guide/quick" },
+				{ text: "问题解决途径", link: "/guide/support" },
+				{ text: "线上Demo体验", link: "/guide/demo" },
+				{ text: "自己搭建体验", link: "/guide/quickstart" },
+				{ text: "收费项目", link: "/guide/price" },
 			],
 		},
 		{
 			text: "其他",
 			collapsed: false,
 			items: [
-				{ text: "常见问题", link: "/guide/others" },
+				{ text: "我们的开源", link: "/guide/source" },
+				{ text: "法律声明", link: "/guide/legal" },
+				{ text: "常见问题", link: "/guide/question" },
 			],
 		}
 	],
@@ -26,13 +30,15 @@ export const sidebar: DefaultTheme.Sidebar = {
 			items: [
 				{ text: "一键部署（推荐）", link: "/dev/backend/deploy" },
 				{ text: "Docker Compose部署", link: "/dev/backend/deploy-compose" },
+				{ text: "K8S部署", link: "/dev/backend/k8s" },
 				{ text: "验证部署", link: "/dev/backend/verify" },
 			],
 		},
 		{
-			text: "进阶",
+			text: "二次开发",
 			collapsed: false,
 			items: [
+				{ text: "开发环境搭建", link: "/dev/backend/structure" },
 				{ text: "项目结构", link: "/dev/backend/structure" },
 				{ text: "项目配置", link: "/dev/backend/fullconfig" },
 				{ text: "API文档", link: "/dev/backend/api" },
@@ -59,7 +65,7 @@ export const sidebar: DefaultTheme.Sidebar = {
 			],
 		},
 		{
-			text: "进阶",
+			text: "二次开发",
 			collapsed: false,
 			items: [
 				{ text: "项目结构", link: "/dev/ios/structure" },
@@ -86,7 +92,7 @@ export const sidebar: DefaultTheme.Sidebar = {
 			],
 		},
 		{
-			text: "进阶",
+			text: "二次开发",
 			collapsed: false,
 			items: [
 				{ text: "项目结构", link: "/dev/android/structure" },
@@ -113,7 +119,7 @@ export const sidebar: DefaultTheme.Sidebar = {
 			],
 		},
 		{
-			text: "进阶",
+			text: "二次开发",
 			collapsed: false,
 			items: [
 				{ text: "项目结构", link: "/dev/web/structure" },

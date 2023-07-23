@@ -52,7 +52,7 @@
 
 扫描拉入群（备注：唐僧叨叨）：
 
-<img src="tsdaodaowechat.jpg" style="width:400px">
+<img src="./tsdaodaowechat.jpg" style="width:400px">
 
 ## 问题反馈
 

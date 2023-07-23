@@ -1,6 +1,6 @@
 build:
-	docker build -t wukongimdocs .
+	docker build -t tangsengdaodaodocs .
 deploy:
-	docker build -t wukongimdocs  .
-	docker tag wukongimdocs wukongim/wukongimdocs:latest
-	docker push wukongim/wukongimdocs:latest
+	docker build -t tangsengdaodaodocs  .
+	docker tag tangsengdaodaodocs wukongim/tangsengdaodaodocs:latest
+	docker push wukongim/tangsengdaodaodocs:latest
