@@ -27,91 +27,91 @@
     <th>简介</th>
     <th>非源码价格</th>
     <th>源码价格</th>
-    <th>明细</th>
+    <!-- <th>明细</th> -->
   </tr>
    <tr>
       <td>收藏模块</td>
       <td>可对文本消息，图片消息消息进行收藏</td>
       <td>0.1w</td>
       <td>0.2w</td>
-      <td><a href="/introduce/price.html#收藏模块">明细</a></td>
+      <!-- <td><a href="/introduce/price.html#收藏模块">明细</a></td> -->
   </tr>
     <tr>
       <td>位置模块</td>
       <td>选择地图位置，发送位置消息，查看位置消息等</td>
       <td>0.3w</td>
       <td>0.6w</td>
-      <td><a href="/introduce/price.html#位置模块">明细</a></td>
+      <!-- <td><a href="/introduce/price.html#位置模块">明细</a></td> -->
   </tr>
     <tr>
       <td>文件模块</td>
       <td>选择文件发送给群或好友</td>
       <td>0.4w</td>
       <td>0.8w</td>
-      <td><a href="/introduce/price.html#文件模块">明细</a></td>
+      <!-- <td><a href="/introduce/price.html#文件模块">明细</a></td> -->
   </tr>
     <tr>
       <td>标签模块</td>
       <td>选择联系人新建标签，标签列表，标签增删改</td>
       <td>0.4w</td>
       <td>0.8w</td>
-      <td><a href="/introduce/price.html#文件模块">明细</a></td>
+      <!-- <td><a href="/introduce/price.html#文件模块">明细</a></td> -->
   </tr>
    <tr>
       <td>群管理模块</td>
       <td>支持群禁言，群管理添加，群头像设置，开启群成员邀请机制等等</td>
       <td>0.44w</td>
       <td>0.88w</td>
-      <td><a href="/introduce/price.html#群管理模块">明细</a></td>
+      <!-- <td><a href="/introduce/price.html#群管理模块">明细</a></td> -->
   </tr>
    <tr>
       <td>小视频模块</td>
       <td>录视频，发送小视频消息，播放小视频</td>
       <td>0.44w</td>
       <td>0.88w</td>
-      <td><a href="/introduce/price.html#小视频模块">明细</a></td>
+      <!-- <td><a href="/introduce/price.html#小视频模块">明细</a></td> -->
   </tr>
   <tr>
       <td>安全与隐私模块</td>
       <td>手机号搜索保护，设备锁，黑名单等等</td>
       <td>0.6w</td>
       <td>1.2w</td>
-      <td><a href="/introduce/price.html#安全与隐私模块">明细</a></td>
+      <!-- <td><a href="/introduce/price.html#安全与隐私模块">明细</a></td> -->
   </tr>
    <tr>
       <td>表情商店</td>
       <td>用户可制作表情，用户可添加动图表情，消息支持动图表情</td>
       <td>0.8w</td>
       <td>1.6w</td>
-      <td><a href="/introduce/price.html#表情商店">明细</a></td>
+      <!-- <td><a href="/introduce/price.html#表情商店">明细</a></td> -->
   </tr>
    <tr>
       <td>朋友圈模块</td>
       <td>发布朋友圈，查看朋友圈，评论朋友圈等等</td>
       <td>0.8w</td>
       <td>1.6w</td>
-      <td><a href="/introduce/price.html#朋友圈模块">明细</a></td>
+      <!-- <td><a href="/introduce/price.html#朋友圈模块">明细</a></td> -->
   </tr>
   <tr>
       <td>客服模块</td>
       <td>专属客服，客服身份标记，访客身份标记，自动分配客服等</td>
       <td>0.9w</td>
       <td>1.8w</td>
-      <td><a href="/introduce/price.html#旗舰模块">明细</a></td>
+      <!-- <td><a href="/introduce/price.html#旗舰模块">明细</a></td> -->
   </tr>
   <tr>
       <td>旗舰模块</td>
       <td>消息已读未读，消息点赞，截屏消息，在线状态，图片编辑等等</td>
       <td>0.9w</td>
       <td>1.8w</td>
-      <td><a href="/introduce/price.html#旗舰模块">明细</a></td>
+      <!-- <td><a href="/introduce/price.html#旗舰模块">明细</a></td> -->
   </tr>
   <tr>
       <td>音视频模块</td>
       <td>单人视频，群聊视频</td>
       <td>1.8w</td>
       <td>3.6w</td>
-      <td><a href="/introduce/price.html#音视频模块">明细</a></td>
+      <!-- <td><a href="/introduce/price.html#音视频模块">明细</a></td> -->
   </tr>
  
   <tr>
@@ -124,11 +124,14 @@
 
 </table>
 
+`一次购买免费升级，可以找购买人员索要升级包或源码`
+
 优惠：
 
 - 一次性购买所有模块源码，总价 15.76w，优惠价 15.5w，送三个月技术服务
 - 一次性购买所有模块非源码，总价 7.88w，优惠价 7.5w，送一个月技术服务
 - 购买任意模块，送15天技术服务
+
 
 
 ## 技术支持服务
@@ -143,3 +146,7 @@
 - 提的BUG优先解决
 - 技术指导
 - 技术方案咨询
+
+## 商务联系
+
+<img src="./tsdaodaowechat-small.png" style="width:300px"/>
