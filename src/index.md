@@ -11,7 +11,7 @@ hero:
   actions:
    	- theme: brand
       text: 马上开始
-      link: /guide/guide
+      link: /guide
     - theme: alt
       text: Github
       link: https://github.com/TangSengDaoDao/TangSengDaoDaoServer
