@@ -38,7 +38,7 @@ export const sidebar: DefaultTheme.Sidebar = {
 			text: "二次开发",
 			collapsed: false,
 			items: [
-				{ text: "开发环境搭建", link: "/dev/backend/structure" },
+				{ text: "开发环境搭建", link: "/dev/backend/devenv" },
 				{ text: "项目结构", link: "/dev/backend/structure" },
 				{ text: "项目配置", link: "/dev/backend/fullconfig" },
 				{ text: "API文档", link: "/dev/backend/api" },
