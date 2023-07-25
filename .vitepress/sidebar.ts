@@ -10,7 +10,6 @@ export const sidebar: DefaultTheme.Sidebar = {
 				{ text: "问题解决途径", link: "/guide/support" },
 				{ text: "线上Demo体验", link: "/guide/demo" },
 				{ text: "自己搭建体验", link: "/guide/quickstart" },
-				{ text: "收费项目", link: "/guide/price" },
 			],
 		},
 		{

@@ -27,8 +27,8 @@ export const navbar: DefaultTheme.NavItem[] = [
 		activeMatch: "^/dev/web"
 	},
 	{
-		text: "Demo演示",
-		link: "/demo/index"
+		text: "收费模块",
+		link: "/price/index"
 	},
 	{
 		text: "项目地址",

@@ -13,5 +13,5 @@
 
    <img src="./tsdaodaowechat.jpg" style="width:200px">
 
-4. 如果还没解决，可以购买我们的技术支持服务，我们会提供一对一的技术支持（ [链接](/guide/price.html#技术支持服务)）。
+4. 如果还没解决，可以购买我们的技术支持服务，我们会提供一对一的技术支持（ [链接](/price/index.html#技术支持服务)）。
 
