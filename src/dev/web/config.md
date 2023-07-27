@@ -6,7 +6,7 @@
 
 ```ts
 
-WKApp.apiClient.config.apiURL = "http://xxx.xx.xx.xx/v1/"  //  服务端地址 注意最后的斜杠
+WKApp.apiClient.config.apiURL = "http://xxx.xx.xx.xx:8090/v1/"  //  服务端地址 注意最后的斜杠
 
 
 ```
