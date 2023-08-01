@@ -69,6 +69,7 @@ export const sidebar: DefaultTheme.Sidebar = {
 			items: [
 				{ text: "项目结构", link: "/dev/ios/structure" },
 				{ text: "模块开发", link: "/dev/ios/module" },
+				{ text: "打包注意事项", link: "/dev/ios/package_notes" },
 
 			],
 		},
