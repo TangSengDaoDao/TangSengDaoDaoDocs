@@ -7,11 +7,15 @@
 
     [后端-常见问题](/dev/backend/question) |  [iOS-常见问题](/dev/ios/question) | [Adnroid-常见问题](/dev/android/question) | [Web/PC-常见问题](/dev/web/question) | [其他-常见问题](/guide/question)
 
-2. 通过 [github issue](https://github.com/TangSengDaoDao/TangSengDaoDaoServer/issues) 给我们提供问题反馈，我们会优先处理。(推荐，issue提的问题，会跟踪到低)
+2. 查看issue是否有别人问了相同问题。
 
-3. 添加以下微信加`唐僧叨叨`的官方群聊，群内有我们的技术和一些踩过坑的同志。
+https://github.com/TangSengDaoDao/TangSengDaoDaoServer/issues
+
+3. 通过 [github issue](https://github.com/TangSengDaoDao/TangSengDaoDaoServer/issues) 给我们提供问题反馈，我们会优先处理。(推荐，issue提的问题，会跟踪到低)
+
+4. 添加以下微信加`唐僧叨叨`的官方群聊，群内有我们的技术和一些踩过坑的同志。
 
    <img src="./tsdaodaowechat.jpg" style="width:200px">
 
-4. 如果还没解决，可以购买我们的技术支持服务，我们会提供一对一的技术支持（ [链接](/price/index.html#技术支持服务)）。
+5. 如果还没解决，可以购买我们的技术支持服务，我们会提供一对一的技术支持（ [链接](/price/index.html#技术支持服务)）。
 
