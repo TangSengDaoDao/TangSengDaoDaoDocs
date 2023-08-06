@@ -27,10 +27,12 @@ export const sidebar: DefaultTheme.Sidebar = {
 			text: "快速开始",
 			collapsed: false,
 			items: [
-				{ text: "一键部署（推荐）", link: "/dev/backend/deploy" },
+				// { text: "一键部署（推荐）", link: "/dev/backend/deploy" },
 				{ text: "Docker Compose部署", link: "/dev/backend/deploy-compose" },
 				{ text: "K8S部署", link: "/dev/backend/k8s" },
+				{ text: "需要开放的端口", link: "/dev/backend/port" },
 				{ text: "验证部署", link: "/dev/backend/verify" },
+				{ text: "连接MYSQL", link: "/dev/backend/deploy-mysql" },
 			],
 		},
 		{

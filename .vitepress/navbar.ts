@@ -8,7 +8,7 @@ export const navbar: DefaultTheme.NavItem[] = [
 	},
 	{
 		text: "后端",
-		link: "/dev/backend/deploy",
+		link: "/dev/backend/deploy-compose",
 		activeMatch: "^/dev/backend",
 	},
 	{
