@@ -3,7 +3,7 @@
 
 ## 1. 安装服务端
 
-[一分钟部署服务端](/dev/backend/deploy)
+[一分钟部署服务端](/dev/backend/deploy-compose)
 
 ## 2. 下载App
     

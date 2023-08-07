@@ -2,35 +2,6 @@
 # 开源项目
 
 
-## 免费开源可商业
-
-以下项目是我们开源出来，可免费商业使用。
-
-### 唐僧叨叨
-
-| 项目名 | Github地址 | Gitee地址 | 开源协议 | 说明 |
-| ---- | ---------- | --------- | ---- | ---- |
-|   TangSengDaoDaoServer   |   [Github](https://github.com/TangSengDaoDao/TangSengDaoDaoServer)         |     [Gitee](https://gitee.com/TangSengDaoDao/TangSengDaoDaoServer)  | Apache2.0 |    唐僧叨叨的业务端，负责一些业务逻辑，比如：好友关系，群组，朋友圈等 （通讯端使用的是 WuKongIM）  |
-|   TangSengDaoDaoAndroid   |   [Github](https://github.com/TangSengDaoDao/TangSengDaoDaoAndroid)         |     [Gitee](https://gitee.com/TangSengDaoDao/TangSengDaoDaoAndroid) | Apache2.0    |    唐僧叨叨的Android端   |
-|   TangSengDaoDaoiOS   |   [Github](https://github.com/TangSengDaoDao/TangSengDaoDaoiOS)         |     [Gitee](https://gitee.com/TangSengDaoDao/TangSengDaoDaoiOS) | Apache2.0      |    唐僧叨叨的iOS端   |
-|   TangSengDaoDaoWeb   |   [Github](https://github.com/TangSengDaoDao/TangSengDaoDaoWeb)         |     [Gitee](https://gitee.com/TangSengDaoDao/TangSengDaoDaoWeb) | Apache2.0      |    唐僧叨叨的Web/PC端   |
-|   TangSengDaoDaoCli   |   [Github](https://github.com/TangSengDaoDao/TangSengDaoDaoCli)         |     [Gitee](https://gitee.com/TangSengDaoDao/TangSengDaoDaoCli) | Apache2.0      |    唐僧叨叨的安装程序   |
-
-### 悟空IM
-
-| 项目名 | Github地址 | Gitee地址 | 开源协议 | 说明 |
-| ---- | ---------- | --------- | ---- |  ---- |
-|   WuKongIM   |   [Github](https://github.com/WuKongIM/WuKongIM)         |     [Gitee](https://gitee.com/WuKongDev/WuKongIM)  | Apache2.0   |    悟空IM通讯端，负责长连接维护，消息投递等等   |
-|   WuKongIMCli   |   [Github](https://github.com/WuKongIM/WuKongIMCli)         |     [Gitee](https://gitee.com/WuKongDev/WuKongIMCli)  | Apache2.0      |    悟空IM的安装程序   |
-|   WuKongIMAndroidSDK   |   [Github](https://github.com/WuKongIM/WuKongIMAndroidSDK)         |     [Gitee](https://gitee.com/WuKongDev/WuKongIMAndroidSDK) | Apache2.0       |    悟空IM的Android SDK  |
-|   WuKongIMiOSSDK   |   [Github](https://github.com/WuKongIM/WuKongIMiOSSDK)         |     [Gitee](https://gitee.com/WuKongDev/WuKongIMiOSSDK)  | Apache2.0     |    悟空IM的iOS SDK  |
-|   WuKongIMUniappSDK   |   [Github](https://github.com/WuKongIM/WuKongIMUniappSDK)         |     [Gitee](https://gitee.com/WuKongDev/WuKongIMUniappSDK)  | Apache2.0     |    悟空IM的 Uniapp SDK  |
-|   WuKongIMJSSDK   |   [Github](https://github.com/WuKongIM/WuKongIMJSSDK)         |     [Gitee](https://gitee.com/WuKongDev/WuKongIMJSSDK)   | Apache2.0    |    悟空IM的 JS SDK  |
-|   WuKongIMReactNativeSDK   |   [Github](https://github.com/wengqianshan/WuKongIMReactNative)         |     无  | Apache2.0    |    悟空IM的 React Native SDK(由贡献者 [wengqianshan](https://github.com/wengqianshan) 提供)  |
-|   WuKongIMFlutterSDK   |   无       |    无   | Apache2.0  |    悟空IM的 Flutter SDK(开发中)  |
-
-
-
 
 ## 收费模块
 
@@ -54,7 +25,7 @@
 
 社区有了资金可以提供更好的服务和开源出来更多优秀的项目。
 
-## 收费模块
+## 所有模块
 
 
 <table>
@@ -63,91 +34,98 @@
     <th>简介</th>
     <th>非源码价格</th>
     <th>源码价格</th>
-    <!-- <th>明细</th> -->
+    <th>明细</th>
+  </tr>
+  <tr>
+      <td>基础模块</td>
+      <td>包含可以发送 文本消息，图片消息，语音消息，名片消息，联系人，用户资料，个人资料，通用设置等等</td>
+      <td>-</td>
+      <td><label color='red'>开源免费商用</label></td>
+      <td><a href="/price/detail.html#基础版-开源免费">明细</a></td>
   </tr>
    <tr>
       <td>收藏模块</td>
       <td>可对文本消息，图片消息消息进行收藏</td>
       <td>0.1w</td>
       <td>0.2w</td>
-      <!-- <td><a href="/introduce/price.html#收藏模块">明细</a></td> -->
+      <td><a href="/price/detail.html#收藏模块">明细</a></td>
   </tr>
     <tr>
       <td>位置模块</td>
       <td>选择地图位置，发送位置消息，查看位置消息等</td>
       <td>0.3w</td>
       <td>0.6w</td>
-      <!-- <td><a href="/introduce/price.html#位置模块">明细</a></td> -->
+      <td><a href="/price/detail.html#位置模块">明细</a></td>
   </tr>
     <tr>
       <td>文件模块</td>
       <td>选择文件发送给群或好友</td>
       <td>0.4w</td>
       <td>0.8w</td>
-      <!-- <td><a href="/introduce/price.html#文件模块">明细</a></td> -->
+      <td><a href="/price/detail.html#文件模块">明细</a></td>
   </tr>
     <tr>
       <td>标签模块</td>
       <td>选择联系人新建标签，标签列表，标签增删改</td>
       <td>0.4w</td>
       <td>0.8w</td>
-      <!-- <td><a href="/introduce/price.html#文件模块">明细</a></td> -->
+      <td><a href="/price/detail.html#文件模块">明细</a></td>
   </tr>
    <tr>
       <td>群管理模块</td>
       <td>支持群禁言，群管理添加，群头像设置，开启群成员邀请机制等等</td>
       <td>0.44w</td>
       <td>0.88w</td>
-      <!-- <td><a href="/introduce/price.html#群管理模块">明细</a></td> -->
+      <td><a href="/price/detail.html#群管理模块">明细</a></td>
   </tr>
    <tr>
       <td>小视频模块</td>
       <td>录视频，发送小视频消息，播放小视频</td>
       <td>0.44w</td>
       <td>0.88w</td>
-      <!-- <td><a href="/introduce/price.html#小视频模块">明细</a></td> -->
+      <td><a href="/price/detail.html#小视频模块">明细</a></td>
   </tr>
   <tr>
       <td>安全与隐私模块</td>
       <td>手机号搜索保护，设备锁，黑名单等等</td>
       <td>0.6w</td>
       <td>1.2w</td>
-      <!-- <td><a href="/introduce/price.html#安全与隐私模块">明细</a></td> -->
+      <td><a href="/price/detail.html#安全与隐私模块">明细</a></td>
   </tr>
    <tr>
       <td>表情商店</td>
       <td>用户可制作表情，用户可添加动图表情，消息支持动图表情</td>
       <td>0.8w</td>
       <td>1.6w</td>
-      <!-- <td><a href="/introduce/price.html#表情商店">明细</a></td> -->
+      <td><a href="/price/detail.html#表情商店">明细</a></td>
   </tr>
    <tr>
       <td>朋友圈模块</td>
       <td>发布朋友圈，查看朋友圈，评论朋友圈等等</td>
       <td>0.8w</td>
       <td>1.6w</td>
-      <!-- <td><a href="/introduce/price.html#朋友圈模块">明细</a></td> -->
+      <td><a href="/price/detail.html#朋友圈模块">明细</a></td>
   </tr>
   <tr>
       <td>客服模块</td>
       <td>专属客服，客服身份标记，访客身份标记，自动分配客服等</td>
       <td>0.9w</td>
       <td>1.8w</td>
-      <!-- <td><a href="/introduce/price.html#旗舰模块">明细</a></td> -->
+      <td><a href="/price/detail.html#旗舰模块">明细</a></td>
   </tr>
   <tr>
       <td>旗舰模块</td>
       <td>消息已读未读，消息点赞，截屏消息，在线状态，图片编辑等等</td>
       <td>0.9w</td>
       <td>1.8w</td>
-      <!-- <td><a href="/introduce/price.html#旗舰模块">明细</a></td> -->
+      <td><a href="/price/detail.html#旗舰模块">明细</a></td>
   </tr>
   <tr>
       <td>音视频模块</td>
       <td>单人视频，群聊视频</td>
       <td>1.8w</td>
       <td>3.6w</td>
-      <!-- <td><a href="/introduce/price.html#音视频模块">明细</a></td> -->
+      <td><a href="/price/detail.html#音视频模块">明细</a></td>
   </tr>
  
   <tr>
