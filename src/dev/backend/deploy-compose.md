@@ -85,7 +85,7 @@ services:
       - API_URL=http://${EXTERNAL_IP}:8090/
     ports:
       - "82:80" 
-  tangsengdaodaomanager:  # 唐僧叨叨的web服务
+  tangsengdaodaomanager:  # 唐僧叨叨的后台管理系统
     image: registry.cn-shanghai.aliyuncs.com/wukongim/tangsengdaodaomanager:latest
     restart: always
     environment:
