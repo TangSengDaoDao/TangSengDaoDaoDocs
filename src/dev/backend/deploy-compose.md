@@ -85,6 +85,13 @@ services:
       - API_URL=http://${EXTERNAL_IP}:8090/
     ports:
       - "82:80" 
+  tangsengdaodaomanager:  # 唐僧叨叨的web服务
+    image: registry.cn-shanghai.aliyuncs.com/wukongim/tangsengdaodaomanager:latest
+    restart: always
+    environment:
+      - API_URL=http://${EXTERNAL_IP}:8090/
+    ports:
+      - "83:80"    
   minio: # minio文件管理服务
     image: minio/minio:latest # use a remote image
     expose:
