@@ -34,7 +34,7 @@ export const navbar: DefaultTheme.NavItem[] = [
 		text: "项目地址",
 		activeMatch: "^/project",
 		items: [
-			{ text: "Github", link: "https://github.com/TangSengDaoDao/TangSengDaoDaoServer" },
+			{ text: "GitHub", link: "https://github.com/TangSengDaoDao/TangSengDaoDaoServer" },
 			{ text: "Gitee", link: "https://gitee.com/TangSengDaoDao/TangSengDaoDaoServer" },
 		],
 	},

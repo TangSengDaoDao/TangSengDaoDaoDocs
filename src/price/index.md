@@ -69,7 +69,7 @@
       <td><a href="/price/detail.html#文件模块">明细</a></td>
   </tr>
    <tr>
-      <td>群管理模块</td>
+      <td>群高级功能</td>
       <td>支持群禁言，群管理添加，群头像设置，开启群成员邀请机制等等</td>
       <td>0.44w</td>
       <td>0.88w</td>

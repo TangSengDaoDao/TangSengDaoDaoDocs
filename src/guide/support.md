@@ -11,7 +11,7 @@
 
 https://github.com/TangSengDaoDao/TangSengDaoDaoServer/issues
 
-3. 通过 [github issue](https://github.com/TangSengDaoDao/TangSengDaoDaoServer/issues) 给我们提供问题反馈，我们会优先处理。(推荐，issue提的问题，会跟踪到低)
+3. 通过 [github issue](https://github.com/TangSengDaoDao/TangSengDaoDaoServer/issues) 给我们提供问题反馈，我们会优先处理。(推荐，issue提的问题，会跟踪到底)
 
 4. 添加以下微信加`唐僧叨叨`的官方群聊，群内有我们的技术和一些踩过坑的同志。
 

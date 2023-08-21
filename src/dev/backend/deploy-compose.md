@@ -194,7 +194,7 @@ TS_SMSCODE=123456
 
 - MYSQL_ROOT_PASSWORD: mysql数据库的root用户密码，随机填写
 
-- MINIO_ROOT_PASSWORD： minio 文件服务的密码，随机填写
+- MINIO_ROOT_PASSWORD： minio 文件服务的密码，随机填写(至少8位)
 
 
 `TS_SMSCODE为手机注册默认的短信验证码`

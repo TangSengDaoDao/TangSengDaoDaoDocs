@@ -39,6 +39,8 @@ export const sidebar: DefaultTheme.Sidebar = {
 			text: "二次开发",
 			collapsed: false,
 			items: [
+				{ text: "项目架构", link: "/dev/backend/architecture" },
+				{ text: "推荐二次开发流程", link: "/dev/backend/workflow" },
 				{ text: "开发环境搭建", link: "/dev/backend/devenv" },
 				{ text: "项目结构", link: "/dev/backend/structure" },
 				{ text: "项目配置", link: "/dev/backend/fullconfig" },

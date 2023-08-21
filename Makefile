@@ -2,5 +2,5 @@ build:
 	docker build -t tangsengdaodaodocs .
 deploy:
 	docker build -t tangsengdaodaodocs  .
-	docker tag tangsengdaodaodocs wukongim/tangsengdaodaodocs:latest
-	docker push wukongim/tangsengdaodaodocs:latest
+	docker tag tangsengdaodaodocs registry.cn-shanghai.aliyuncs.com/wukongim/tangsengdaodaodocs:latest
+	docker push registry.cn-shanghai.aliyuncs.com/wukongim/tangsengdaodaodocs:latest
