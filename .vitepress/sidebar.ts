@@ -7,6 +7,7 @@ export const sidebar: DefaultTheme.Sidebar = {
 			collapsed: false,
 			items: [
 				{ text: "什么是唐僧叨叨", link: "/guide/" },
+				{ text: "快速入口", link: "/guide/fastentry" },
 				{ text: "问题解决途径", link: "/guide/support" },
 				{ text: "线上Demo体验", link: "/guide/demo" },
 				{ text: "自己搭建体验", link: "/guide/quickstart" },
@@ -16,7 +17,6 @@ export const sidebar: DefaultTheme.Sidebar = {
 			text: "其他",
 			collapsed: false,
 			items: [
-				{ text: "我们的开源", link: "/guide/source" },
 				{ text: "法律声明", link: "/guide/legal" },
 				{ text: "常见问题", link: "/guide/question" },
 			],

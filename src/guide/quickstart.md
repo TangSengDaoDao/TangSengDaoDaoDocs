@@ -7,7 +7,7 @@
 
 ## 2. 下载App
     
-[下载APP](/demo/)
+[下载APP](/guide/demo.html)
 
 ## 3. 修改服务器地址
 

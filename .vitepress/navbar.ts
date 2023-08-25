@@ -31,11 +31,7 @@ export const navbar: DefaultTheme.NavItem[] = [
 		link: "/price/index"
 	},
 	{
-		text: "项目地址",
-		activeMatch: "^/project",
-		items: [
-			{ text: "GitHub", link: "https://github.com/TangSengDaoDao/TangSengDaoDaoServer" },
-			{ text: "Gitee", link: "https://gitee.com/TangSengDaoDao/TangSengDaoDaoServer" },
-		],
+		text: "演示Demo",
+		link: "/guide/demo"
 	},
 ];
