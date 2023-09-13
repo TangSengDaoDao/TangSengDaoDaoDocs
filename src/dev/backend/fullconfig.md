@@ -61,7 +61,7 @@ uniSMS:
   signature: "" # unisms signature  
 
 #################### 文件服务 ####################
-fileService: "minio" # 文件服务 minio or oss or seaweed
+fileService: "minio" # 文件服务 minio or aliyunOSS or seaweedFS
 minio: # minio配置
   url: "" # minio地址 格式：http://xx.xx.xx.xx:9000
   accessKeyID: "" # minio accessKeyID
