@@ -698,8 +698,8 @@
     <th>三级</th>
   </tr>
    <tr >
-      <td rowspan="9">会话设置</td>
-      <td rowspan="9">群管理</td>
+      <td rowspan="10">会话设置</td>
+      <td rowspan="10">群管理</td>
       <td >设置群成员黑名单</td>
   </tr>
   <tr>
@@ -725,6 +725,9 @@
   </tr>
   <tr>
       <td >是否允许新成员查看历史消息</td>
+  </tr>
+   <tr>
+      <td >撤回群成员消息</td>
   </tr>
  
 </table>

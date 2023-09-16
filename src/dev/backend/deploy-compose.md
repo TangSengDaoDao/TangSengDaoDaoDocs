@@ -78,6 +78,7 @@ services:
       - TS_MINIO_ACCESSKEYID=${MINIO_ROOT_USER}
       - TS_MINIO_SECRETACCESSKEY=${MINIO_ROOT_PASSWORD}
       - TS_AVATAR_DEFAULTBASEURL=https://api.multiavatar.com/{avatar}.png
+      - TS_ADMINPWD=${TS_ADMINPWD}
   tangsengdaodaoweb:  # 唐僧叨叨的web服务
     image: registry.cn-shanghai.aliyuncs.com/wukongim/tangsengdaodaoweb:latest
     restart: always
@@ -185,6 +186,8 @@ TS_MODE=debug
 # The SMS code for testing, if it is not empty, the SMS code will be this value (If you need to configure real SMS, please refer to the SMS configuration in the complete configuration)
 TS_SMSCODE=123456
 
+TS_ADMINPWD=
+
 
 ```
 
@@ -192,9 +195,11 @@ TS_SMSCODE=123456
 
 - EXTERNAL_IP：服务器的对外IP地址
 
-- MYSQL_ROOT_PASSWORD: mysql数据库的root用户密码，随机填写
+- MYSQL_ROOT_PASSWORD: mysql数据库的root用户密码，可随机填写
 
-- MINIO_ROOT_PASSWORD： minio 文件服务的密码，随机填写(至少8位)
+- MINIO_ROOT_PASSWORD： minio 文件服务的密码，可随机填写(至少8位)
+
+- TS_ADMINPWD： 唐僧叨叨后台管理系统的管理员密码，可随机填写(至少8位)
 
 
 `TS_SMSCODE为手机注册默认的短信验证码`
