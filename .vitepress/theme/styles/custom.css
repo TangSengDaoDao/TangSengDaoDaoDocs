@@ -13,3 +13,8 @@
   display: none !important;
   --icon: none !important;
 }
+
+/* 处理移动端导航 */
+.VPNavScreenMenu .vp-external-link-icon {
+	display: none !important;
+}
