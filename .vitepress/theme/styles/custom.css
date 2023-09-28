@@ -8,3 +8,8 @@
 	border-radius: 6px;
 	vertical-align: middle;
 }
+
+.VPNavBarMenuLink::after {
+  display: none !important;
+  --icon: none !important;
+}
