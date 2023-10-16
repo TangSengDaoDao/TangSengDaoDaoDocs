@@ -4,7 +4,7 @@
 
 ## 环境要求
 
-- Linux系统（最低配置2核8G）
+- Linux系统（建议配置2核8G）
 
 - Docker
 
@@ -186,6 +186,7 @@ TS_MODE=debug
 # The SMS code for testing, if it is not empty, the SMS code will be this value (If you need to configure real SMS, please refer to the SMS configuration in the complete configuration)
 TS_SMSCODE=123456
 
+# superAdmin password
 TS_ADMINPWD=
 
 
@@ -199,7 +200,7 @@ TS_ADMINPWD=
 
 - MINIO_ROOT_PASSWORD： minio 文件服务的密码，可随机填写(至少8位)
 
-- TS_ADMINPWD： 唐僧叨叨后台管理系统的管理员密码，可随机填写(至少8位)
+- TS_ADMINPWD： 唐僧叨叨后台管理系统的管理员密码,用户名为 superAdmin，可随机填写(至少8位)
 
 
 `TS_SMSCODE为手机注册默认的短信验证码`
@@ -208,7 +209,7 @@ TS_ADMINPWD=
 
 ```shell
 
-docker-compose up -d
+docker-compose up -d （新版本是 docker compose up -d）
 
 ```
 

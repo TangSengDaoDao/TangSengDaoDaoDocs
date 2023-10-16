@@ -58,7 +58,9 @@ aliyunInternationalSMS: # 阿里云国际短信，如果配置了该项，遇到
   accessSecret: "" # 阿里云国际短信accessSecret  
 uniSMS:
   accessKeyID: "" # unisms accessKeyID
-  signature: "" # unisms signature  
+  signature: "" # unisms signature
+  accessKeySecret: "" # unisms accessKeySecret 简易模式可以为空
+  templateId: "" # unisms TemplateId 验证码变量名为code  
 
 #################### 文件服务 ####################
 fileService: "minio" # 文件服务 minio or aliyunOSS or seaweedFS
