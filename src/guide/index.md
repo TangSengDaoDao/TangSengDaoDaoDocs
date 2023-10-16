@@ -47,7 +47,10 @@
 <!-- **全场景模拟平台**
 
 研发中... -->
+## 许可证
+[![license](https://img.shields.io/github/license/TangSengDaoDao/TangSengDaoDaoServer.svg?style=flat-square)](https://github.com/TangSengDaoDao/TangSengDaoDaoServer/blob/main/LICENSE)
 
+唐僧叨叨 使用 Apache-v2.0 协议开源，请遵守开源协议。
 
 ## 联系我们
 

@@ -34,4 +34,8 @@ export const navbar: DefaultTheme.NavItem[] = [
 		text: "演示Demo",
 		link: "/guide/demo"
 	},
+	{
+		text: '<img src="https://img.shields.io/github/stars/TangSengDaoDao/TangSengDaoDaoServer.svg?style=social&label=Star" alt="TangSengDaoDao" />',
+		link: "https://github.com/TangSengDaoDao/TangSengDaoDaoServer"
+	}
 ];
