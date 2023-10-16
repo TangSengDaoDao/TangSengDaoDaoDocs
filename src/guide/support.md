@@ -15,7 +15,7 @@ https://github.com/TangSengDaoDao/TangSengDaoDaoServer/issues
 
 4. 添加以下微信加`唐僧叨叨`的官方群聊，群内有我们的技术和一些踩过坑的同志。
 
-   <img src="./tsdaodaowechat.jpg" style="width:200px">
+   <img src="./tsdaodaowechat.jpg" data-fancybox="gallery" style="width:200px">
 
 5. 如果还没解决，可以购买我们的技术支持服务，我们会提供一对一的技术支持（ [链接](/price/index.html#技术支持服务)）。
 

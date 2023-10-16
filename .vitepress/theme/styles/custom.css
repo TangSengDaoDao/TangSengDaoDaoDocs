@@ -25,3 +25,7 @@
 	text-decoration-color: var(--vp-c-brand-1);
 	text-decoration-style: dashed;
 }
+
+img[data-fancybox]{
+	cursor: pointer;
+}
