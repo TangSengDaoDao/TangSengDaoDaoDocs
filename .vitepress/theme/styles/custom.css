@@ -18,3 +18,14 @@
 .VPNavScreenMenu .vp-external-link-icon {
 	display: none !important;
 }
+
+.VPFooter .copyright a:hover{
+	color: var(--vp-c-brand-1);
+	text-decoration: underline;
+	text-decoration-color: var(--vp-c-brand-1);
+	text-decoration-style: dashed;
+}
+
+img[data-fancybox]{
+	cursor: pointer;
+}

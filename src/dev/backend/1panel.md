@@ -1,5 +1,22 @@
 # 1Panel 部署
+
 ## 安装 1Panel
+
+在线安装
+::: code-group
+
+``` shell [RedHat/CentOS]
+curl -sSL https://resource.fit2cloud.com/1panel/package/quick_start.sh -o quick_start.sh && sh quick_start.sh
+```
+
+``` shell [Ubuntu/Deepin]
+curl -sSL https://resource.fit2cloud.com/1panel/package/quick_start.sh -o quick_start.sh && sudo bash quick_start.sh
+```
+
+```shell [Debian]
+curl -sSL https://resource.fit2cloud.com/1panel/package/quick_start.sh -o quick_start.sh && sudo bash quick_start.sh
+```
+
 关于 1Panel 的安装部署与基础功能介绍，请参考 [1Panel 官方文档](https://1panel.cn/)。在完成了 1Panel 的安装部署后，根据提示网址打开浏览器进入 1Panel，如下界面。
 
 ![安装1Panel](./1panel.png)

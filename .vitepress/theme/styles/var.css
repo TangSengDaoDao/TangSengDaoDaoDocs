@@ -4,8 +4,11 @@
 
 :root {
 	--vp-c-brand: #df5d2a;
+	--vp-c-brand-1: #df5d2a;
+	--vp-c-brand-2: #df5d2a;
+	--vp-c-brand-3: #df5d2a;
 	--vp-c-brand-light: #df5d2a;
-	--vp-c-brand-lighter: #ff9a2e;
+	--vp-c-brand-lighter: #df5d2a;
 	--vp-c-brand-lightest: #ff7d00;
 	--vp-c-brand-dark: #483838;
 	--vp-c-brand-darker: #3a2d2d;
@@ -18,13 +21,13 @@
 
 :root {
 	--vp-button-brand-border: var(--vp-c-brand-light);
-	--vp-button-brand-text: var(--vp-c-text-dark-1);
+	--vp-button-brand-text: var(--vp-c-white);
 	--vp-button-brand-bg: var(--vp-c-brand);
 	--vp-button-brand-hover-border: var(--vp-c-brand-light);
-	--vp-button-brand-hover-text: var(--vp-c-text-dark-1);
+	--vp-button-brand-hover-text: var(--vp-c-white);
 	--vp-button-brand-hover-bg: var(--vp-c-brand-light);
 	--vp-button-brand-active-border: var(--vp-c-brand-light);
-	--vp-button-brand-active-text: var(--vp-c-text-dark-1);
+	--vp-button-brand-active-text: var(--vp-c-white);
 	--vp-button-brand-active-bg: var(--vp-button-brand-bg);
 }
 
