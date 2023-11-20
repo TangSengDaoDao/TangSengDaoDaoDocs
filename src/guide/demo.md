@@ -11,7 +11,7 @@
 
 | Web端 | Windows端 | MAC端 | Ubuntun端 |
 |:---:|:---:|:---:|:---:|
-|[点击体验](https://web.botgate.cn)|[点击下载](https://tangsengdaodao.oss-cn-shanghai.aliyuncs.com/download/tangsengdaodao_x64.msi)|[点击下载](https://tangsengdaodao.oss-cn-shanghai.aliyuncs.com/download/tangsengdaodao_x64.dmg)|[点击下载](https://tangsengdaodao.oss-cn-shanghai.aliyuncs.com/download/tangsengdaodao_amd64.deb)|
+|[点击体验](https://web.botgate.cn)|[点击下载](https://file.githubim.com/download/tangsengdaodao_x64.msi)|[点击下载](https://file.githubim.com/download/tangsengdaodao_x64.dmg)|[点击下载](https://file.githubim.com/download/tangsengdaodao_amd64.deb)|
 
 
 `app端在登录页面长按标题可以进入手机号登录`
@@ -31,11 +31,11 @@
 
 ||||
 |:---:|:---:|:--:|
-|![](https://tangsengdaodao.oss-cn-shanghai.aliyuncs.com/screenshot/conversationlist.webp)|![](https://tangsengdaodao.oss-cn-shanghai.aliyuncs.com/screenshot/messages.webp)|![](https://tangsengdaodao.oss-cn-shanghai.aliyuncs.com/screenshot/robot.webp)|
+|![](https://file.githubim.com/screenshot/conversationlist.webp)|![](https://file.githubim.com/screenshot/messages.webp)|![](https://file.githubim.com/screenshot/robot.webp)|
 
 
 |||          |
 |:---:|:---:|:-------------------:|
-|![](https://tangsengdaodao.oss-cn-shanghai.aliyuncs.com/screenshot/weblogin.webp)|![](https://tangsengdaodao.oss-cn-shanghai.aliyuncs.com/screenshot/apm.webp)| ![](https://tangsengdaodao.oss-cn-shanghai.aliyuncs.com/screenshot/other.webp) |
+|![](https://file.githubim.com/screenshot/weblogin.webp)|![](https://file.githubim.com/screenshot/apm.webp)| ![](https://file.githubim.com/screenshot/other.webp) |
 
 

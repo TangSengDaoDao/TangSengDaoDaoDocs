@@ -29,7 +29,7 @@ export const sidebar: DefaultTheme.Sidebar = {
 			items: [
 				// { text: "一键部署（推荐）", link: "/dev/backend/deploy" },
 				{ text: "Docker Compose部署", link: "/dev/backend/deploy-compose" },
-				{ text: "1Panel部署", link: "/dev/backend/1panel" },
+				// { text: "1Panel部署", link: "/dev/backend/1panel" },
 				{ text: "宝塔部署", link: "/dev/backend/btpanle" },
 				{ text: "K8S部署", link: "/dev/backend/k8s" },
 				{ text: "端口说明", link: "/dev/backend/port" },

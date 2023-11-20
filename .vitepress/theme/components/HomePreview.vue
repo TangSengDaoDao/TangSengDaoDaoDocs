@@ -5,39 +5,39 @@
       <div class="items">
         <div class="item">
           <video ref="videoPlayer" class="video" autoplay muted controls loop
-            src="https://tangsengdaodao.oss-cn-shanghai.aliyuncs.com/screenshot/conversationlist.mp4">
+            src="https://file.githubim.com/screenshot/conversationlist.mp4">
           </video>
         </div>
         <div class="item">
           <video ref="videoPlayer" class="video" autoplay muted controls loop
-            src="https://tangsengdaodao.oss-cn-shanghai.aliyuncs.com/screenshot/messages.mp4">
+            src="https://file.githubim.com/screenshot/messages.mp4">
           </video>
         </div>
         <div class="item">
           <video ref="videoPlayer" class="video" autoplay muted controls loop
-            src="https://tangsengdaodao.oss-cn-shanghai.aliyuncs.com/screenshot/robot.mp4">
+            src="https://file.githubim.com/screenshot/robot.mp4">
           </video>
         </div>
         <div class="item">
           <video ref="videoPlayer" class="video" autoplay muted controls loop
-            src="https://tangsengdaodao.oss-cn-shanghai.aliyuncs.com/screenshot/weblogin.mp4">
+            src="https://file.githubim.com/screenshot/weblogin.mp4">
           </video>
         </div>
         <div class="item">
           <video ref="videoPlayer" class="video" autoplay muted controls loop
-            src="https://tangsengdaodao.oss-cn-shanghai.aliyuncs.com/screenshot/apm.mp4">
+            src="https://file.githubim.com/screenshot/apm.mp4">
           </video>
         </div>
         <div class="item">
           <video ref="videoPlayer" class="video" autoplay muted controls loop
-            src="https://tangsengdaodao.oss-cn-shanghai.aliyuncs.com/screenshot/others.mp4">
+            src="https://file.githubim.com/screenshot/others.mp4">
           </video>
         </div>
         <div class="item" style="width: 100%;">
-          <img src="https://tangsengdaodao.oss-cn-shanghai.aliyuncs.com/screenshot/pc2.png">
+          <img src="https://file.githubim.com/screenshot/pc2.png">
         </div>
         <div class="item" style="width: 100%;">
-          <img src="https://tangsengdaodao.oss-cn-shanghai.aliyuncs.com/screenshot/pc1.png">
+          <img src="https://file.githubim.com/screenshot/pc1.png">
         </div>
       </div>
     </div>
