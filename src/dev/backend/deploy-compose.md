@@ -66,7 +66,7 @@ services:
       - "8090:8090"
     volumes:
       - ./tsdd:/home/tsdddata
-      # - ./tsdd/configs/tsdd.yaml:/home/configs/tsdd.yaml
+      - ./tsdd/configs:/home/configs  # 如果需要使用yaml配置，在当前目录下创建tsdd/configs目录，并新建tsdd.yaml配置文件（注意：配置生效优先级environment高于配置文件，如果你配置了environment将覆盖tsdd.yaml的配置项）
     environment:
       - TS_MODE=${TS_MODE}
       - TS_WUKONGIM_APIURL=http://wukongim:5001
@@ -94,7 +94,7 @@ services:
     ports:
       - "83:80"    
   minio: # minio文件管理服务
-    image: minio/minio:latest # use a remote image
+    image: minio/minio:RELEASE.2023-07-18T17-49-40Z # use a remote image
     expose:
       - "9000"
       - "9001"
@@ -113,7 +113,7 @@ services:
     volumes:
       - ./miniodata:/data    
   mysql:  # mysql数据库
-    image: mysql:latest
+    image: mysql:8.0.33
     command: --default-authentication-plugin=mysql_native_password
     healthcheck:
       test: ["CMD", "mysqladmin" ,"ping", "-h", "localhost"]
@@ -124,7 +124,7 @@ services:
     volumes:
       - ./mysqldata:/var/lib/mysql                    
   redis:  # redis
-    image: redis
+    image: redis:7.2.3
     restart: always
     healthcheck:
       test: ["CMD", "redis-cli", "ping"]

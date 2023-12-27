@@ -28,8 +28,6 @@ wukongIM:
 #################### db ####################
 db:
   mysqlAddr: "root:demo@tcp(127.0.0.1:3306)/test?charset=utf8mb4&parseTime=true" # mysql连接地址
-  sqlDir: "assets/sql" # 数据库脚本路径
-  migration: true #  是否合并数据库
   redisAddr: "" # redis地址
   asynctaskRedisAddr: "" # 异步任务的redis地址 不写默认为RedisAddr的地址
 
@@ -123,7 +121,7 @@ account:
 
 #################### 头像 ####################
 avatar:
-  default: "assets/assets/avatar.png" # 默认头像
+  defaultBaseURL: "" # 默认头像cdn地址
   defaultCount: 900 # 默认头像数量
   partition: 100 # 头像分区数量
 
