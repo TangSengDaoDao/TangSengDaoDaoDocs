@@ -7,13 +7,13 @@ titleTemplate: 唐僧叨叨
 hero:
   name: 唐僧叨叨
   text: 让企业轻松拥有自己的即时通讯
-  tagline: 一款非微信专家，非腾讯专家，历时八年时间打造的运营级别的开源即时通讯聊天软件(WuKongIM提供通讯动力)
+  tagline: 历时八年时间打造的运营级别的开源即时通讯聊天软件(WuKongIM提供通讯动力)
   actions:
    	- theme: brand
       text: 马上开始
-      link: /guide/guide
+      link: /guide/
     - theme: alt
-      text: Github
+      text: GitHub
       link: https://github.com/TangSengDaoDao/TangSengDaoDaoServer
 
 features:

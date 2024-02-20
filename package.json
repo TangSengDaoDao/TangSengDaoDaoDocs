@@ -18,7 +18,7 @@
     "@iconify-json/ph": "^1.1.5",
     "@iconify-json/twemoji": "^1.1.11",
     "@iconify-json/vscode-icons": "^1.1.25",
-    "vitepress": "1.0.0-beta.3",
+    "vitepress": "1.0.0-rc.20",
     "vue": "^3.3.4"
   },
   "devDependencies": {
@@ -26,7 +26,7 @@
     "markdown-it-custom-attrs": "^1.0.2",
     "typescript": "^5.0.4",
     "unocss": "^0.53.3",
-    "vite": "^4.3.9"
+    "vite": "^4.4.9"
   },
   "pnpm": {
     "peerDependencyRules": {

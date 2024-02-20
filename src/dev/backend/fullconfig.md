@@ -5,6 +5,8 @@
 
 默认可以全都注释掉，使用系统最优配置，需要配置什么就打开对应的注释
 
+`配置采用yaml格式，如果发现配置什么都不生效，请检查缩进是否正确`
+
 ```yaml
 
 #################### 基础配置 ####################
@@ -28,8 +30,6 @@ wukongIM:
 #################### db ####################
 db:
   mysqlAddr: "root:demo@tcp(127.0.0.1:3306)/test?charset=utf8mb4&parseTime=true" # mysql连接地址
-  sqlDir: "assets/sql" # 数据库脚本路径
-  migration: true #  是否合并数据库
   redisAddr: "" # redis地址
   asynctaskRedisAddr: "" # 异步任务的redis地址 不写默认为RedisAddr的地址
 
@@ -58,16 +58,19 @@ aliyunInternationalSMS: # 阿里云国际短信，如果配置了该项，遇到
   accessSecret: "" # 阿里云国际短信accessSecret  
 uniSMS:
   accessKeyID: "" # unisms accessKeyID
-  signature: "" # unisms signature  
+  signature: "" # unisms signature
+  accessKeySecret: "" # unisms accessKeySecret 简易模式可以为空
+  templateId: "" # unisms TemplateId 验证码变量名为code  
 
 #################### 文件服务 ####################
-fileService: "minio" # 文件服务 minio or oss or seaweed
+fileService: "minio" # 文件服务 minio or aliyunOSS or seaweedFS
 minio: # minio配置
   url: "" # minio地址 格式：http://xx.xx.xx.xx:9000
   accessKeyID: "" # minio accessKeyID
   secretAccessKey: ""  # minio secretAccessKey
 oss:  # aliyun oss配置
   endpoint: "" # oss endpoint 例如 oss-cn-hangzhou.aliyuncs.com
+  bucketName: "" # bucketName 例如： tangsengdaodao
   bucketURL: "" # oss bucketURL 例如 https://xxxx.oss-cn-hangzhou.aliyuncs.com
   accessKeyID: "" # oss accessKeyID
   accessKeySecret: "" # oss accessKeySecret
@@ -120,7 +123,7 @@ account:
 
 #################### 头像 ####################
 avatar:
-  default: "assets/assets/avatar.png" # 默认头像
+  defaultBaseURL: "" # 默认头像cdn地址
   defaultCount: 900 # 默认头像数量
   partition: 100 # 头像分区数量
 
@@ -160,3 +163,31 @@ cache:
 
 
 ```
+
+## 配置转环境变量
+
+
+唐僧叨叨可以通过配置环境变量来覆盖配置文件的配置。
+
+比如配置文件里的 db.mysqlAddr 地址配置
+
+文件的格式：
+
+```
+...
+
+db
+  mysqlAddr: "root:demo@tcp(127.0.0.1:3306)/test?charset=utf8mb4&parseTime=true"
+...
+
+```
+
+转换为环境变量的格式：
+
+```
+
+TS_DB_MYSQLADDR=root:demo@tcp(127.0.0.1:3306)/test?charset=utf8mb4&parseTime=true
+
+```
+
+规则: TS为固定前缀，层级关系通过 "_"符号隔开，全都大写

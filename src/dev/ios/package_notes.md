@@ -1,9 +1,11 @@
+# 打包注意事项
 
-# 常见问题
+第一步：
 
-----------------
+Podfile里的dev_team换成自己开发者账号的team id
 
-`序号：2001`: IntermediateBuildFilesPath/UninstalledProducts/iphoneos/Aspects.framework" failed: No such file or directory
+
+第二步：
 
 ```
 

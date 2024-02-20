@@ -7,17 +7,16 @@ export const sidebar: DefaultTheme.Sidebar = {
 			collapsed: false,
 			items: [
 				{ text: "什么是唐僧叨叨", link: "/guide/" },
+				{ text: "快速入口", link: "/guide/fastentry" },
 				{ text: "问题解决途径", link: "/guide/support" },
 				{ text: "线上Demo体验", link: "/guide/demo" },
 				{ text: "自己搭建体验", link: "/guide/quickstart" },
-				{ text: "收费项目", link: "/guide/price" },
 			],
 		},
 		{
 			text: "其他",
 			collapsed: false,
 			items: [
-				{ text: "我们的开源", link: "/guide/source" },
 				{ text: "法律声明", link: "/guide/legal" },
 				{ text: "常见问题", link: "/guide/question" },
 			],
@@ -28,20 +27,26 @@ export const sidebar: DefaultTheme.Sidebar = {
 			text: "快速开始",
 			collapsed: false,
 			items: [
-				{ text: "一键部署（推荐）", link: "/dev/backend/deploy" },
+				// { text: "一键部署（推荐）", link: "/dev/backend/deploy" },
 				{ text: "Docker Compose部署", link: "/dev/backend/deploy-compose" },
+				// { text: "1Panel部署", link: "/dev/backend/1panel" },
+				{ text: "宝塔部署", link: "/dev/backend/btpanle" },
 				{ text: "K8S部署", link: "/dev/backend/k8s" },
+				{ text: "端口说明", link: "/dev/backend/port" },
 				{ text: "验证部署", link: "/dev/backend/verify" },
+				{ text: "连接MYSQL", link: "/dev/backend/deploy-mysql" },
 			],
 		},
 		{
 			text: "二次开发",
 			collapsed: false,
 			items: [
-				{ text: "开发环境搭建", link: "/dev/backend/structure" },
+				{ text: "项目架构", link: "/dev/backend/architecture" },
+				{ text: "推荐二次开发流程", link: "/dev/backend/workflow" },
+				{ text: "开发环境搭建", link: "/dev/backend/devenv" },
 				{ text: "项目结构", link: "/dev/backend/structure" },
 				{ text: "项目配置", link: "/dev/backend/fullconfig" },
-				{ text: "API文档", link: "/dev/backend/api" },
+				{ text: "API文档", link: "https://apidocs.botgate.cn/" },
 				{ text: "模块开发", link: "/dev/backend/module" },
 
 			],
@@ -70,6 +75,7 @@ export const sidebar: DefaultTheme.Sidebar = {
 			items: [
 				{ text: "项目结构", link: "/dev/ios/structure" },
 				{ text: "模块开发", link: "/dev/ios/module" },
+				{ text: "打包注意事项", link: "/dev/ios/package_notes" },
 
 			],
 		},

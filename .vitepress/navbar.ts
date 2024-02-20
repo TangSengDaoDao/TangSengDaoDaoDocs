@@ -8,7 +8,7 @@ export const navbar: DefaultTheme.NavItem[] = [
 	},
 	{
 		text: "后端",
-		link: "/dev/backend/deploy",
+		link: "/dev/backend/deploy-compose",
 		activeMatch: "^/dev/backend",
 	},
 	{
@@ -27,15 +27,15 @@ export const navbar: DefaultTheme.NavItem[] = [
 		activeMatch: "^/dev/web"
 	},
 	{
-		text: "Demo演示",
-		link: "/demo/index"
+		text: "收费模块",
+		link: "/price/index"
 	},
 	{
-		text: "项目地址",
-		activeMatch: "^/project",
-		items: [
-			{ text: "Github", link: "https://github.com/TangSengDaoDao/TangSengDaoDaoServer" },
-			{ text: "Gitee", link: "https://gitee.com/TangSengDaoDao/TangSengDaoDaoServer" },
-		],
+		text: "演示Demo",
+		link: "/guide/demo"
 	},
+	{
+		text: '<img src="https://img.shields.io/github/stars/TangSengDaoDao/TangSengDaoDaoServer.svg?style=social&label=Star" alt="TangSengDaoDao" />',
+		link: "https://github.com/TangSengDaoDao/TangSengDaoDaoServer"
+	}
 ];

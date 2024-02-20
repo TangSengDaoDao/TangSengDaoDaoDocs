@@ -41,18 +41,22 @@
 
 **管理端**
 
-研发中...
+[TangSengDaoDaoManager](https://github.com/TangSengDaoDao/TangSengDaoDaoManager)
 
-**全场景模拟平台**
 
-研发中...
+<!-- **全场景模拟平台**
 
+研发中... -->
+## 许可证
+[![license](https://img.shields.io/github/license/TangSengDaoDao/TangSengDaoDaoServer.svg?style=flat-square)](https://github.com/TangSengDaoDao/TangSengDaoDaoServer/blob/main/LICENSE)
+
+唐僧叨叨 使用 Apache-v2.0 协议开源，请遵守开源协议。
 
 ## 联系我们
 
 扫描拉入群（备注：唐僧叨叨）：
 
-<img src="./tsdaodaowechat.jpg" style="width:400px">
+<img src="./tsdaodaowechat.jpg" data-fancybox="gallery" style="width:200px">
 
 ## 问题反馈
 
