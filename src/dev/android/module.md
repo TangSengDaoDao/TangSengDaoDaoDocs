@@ -1,72 +1,110 @@
 
 # 模块开发
- 为了方便业务开发唐僧叨叨采用了模块开发。不同模块处理独立的业务功能，可以独立使用，也可以组合使用。设计达到的目的就是为了方便在`app`模块通过一句配置就能引入模块。如：`wklogin`模块在主程序的`application` 中注入模块`WKLoginApplication.getInstance().init(this)`
-
- 如果您需要自己开发一个新的模块功能可以按照唐僧叨叨目前的模块设计开发属于自己的模块。当然如果你购买了唐僧叨叨的收费模块，也可以通过以下步骤将该模块引入到项目中。下面以`wkgroupmanage`（群管理模块）举例
-
- ### AAR（执行文件）引入
- #### 第一步
-
- 在项目的`MyLibs`目录中新建文件夹`wkgroupmanage`，将`wkgroupmanager_v1.aar`文件复制到该目录下。并在`wkgroupmanage`文件夹下新建`build.gradle`文件，将以下代码复制到该文件中。
-
- ```shell
- configurations.maybeCreate("default")
-artifacts.add("default", file('wkgroupmanager_v1.aar'))
+ 为了方便业务开发唐僧叨叨采用了模块开发。不同模块处理独立的业务功能，可以独立使用，也可以组合使用。设计达到的目的就是为了方便在`app`模块通过一句配置就能引入模块。如：`wklogin`模块在主程序的`application` 中注入模块
+ ```kotlin
+ // 登录模块
+ WKLoginApplication.getInstance().init(this)
  ```
+如果重写登录模块，只需要新建模块，然后按模块规则实现登录的逻辑，然后注册新写的登录模块就可以了
 
- 注意：file名称必须和aar文件名称一致。如下图所示
-
-![](./aar_import_1.png)
-#### 第二步
-
-在项目的`settings.gradle`文件的最后面添加
-```shell
-include ':MyLibs:wkgroupmanager'
-```
-#### 第三步
-在项目的`app`模块的`build.gradle`文件中添加以下代码，并执行`Sync Now`
-```shell
-implementation project(path: ':MyLibs:wkgroupmanage')
-```
-如下图所示
-
-![](./aar_import_2.png)
-
-#### 第四步
-
-在项目的`app`模块的`Application`中引入该模块
-```kotlin
-// 引入群管理模块
-WKGroupManageApplication.getInstance().init()
-```
-完成以上步骤通过aar文件添加模块就完成了
-
-### 源码引入
+### 创建模块
 #### 第一步
 
-将`wkgroupmanage`源码文件夹放在项目的根目录，并在项目的`settings.gradle`文件的最后面添加该模块
-```shell
-include ':wkgroupmanage'
-```
+右键项目名-->'New'-->'Module'，然后依次填写模块名称，模块包名等信息。
 
-如下图所示
-
-![](./code_import_1.png)
-#### 第二步
-
-在项目的`app`模块的`build.gradle`文件中添加该模块，并执行`Sync Now`
-```shell
-implementation project(path: ':wkgroupmanage')
-```
-如下图所示
-
-![](./code_import_2.png)
-
-#### 第三步
-
-在项目的`app`模块的`Application`中引入该模块
+根据模块业务，在模块中新建入口文件，如文件处理模块可命名`WkFileApplication`并在该文件中编写注册方法。
 ```kotlin
-// 引入群管理模块
-WKGroupManageApplication.getInstance().init()
+// 文件管理
+class WKFileApplication private constructor() {
+    private object SingletonInstance {
+        val INSTANCE = WKFileApplication()
+    }
+
+    companion object {
+        val instance: WKFileApplication
+            get() = SingletonInstance.INSTANCE
+    }
+    // 暴露入口方法
+    fun init(context: Context) {
+        // todo 其他业务
+    }
+}
 ```
-完成以上步骤通过源码添加模块就完成了
+#### 第二步
+依赖基础模块和`app`模块引入该模块。
+在新模块的`build.gradle`文件中添加对`base`模块的依赖
+```gradle
+// 依赖base模块
+api project(':wkbase')
+```
+在`app`模块中添加对新模块的引入
+```gradle
+// 添加新模块。
+api project(':模块名称')
+```
+#### 第三步
+在主程序的`application` 中注入模块。如模块的application文件名为`WKFileApplication`则注册代码如下
+```koltin
+// 注册模块
+WKFileApplication.instance.init(this)
+```
+对此app模块就能访问到新建的模块代码了
+
+如果需要不同模块之间能相互访问页面或数据可查看`模块规则`
+
+### 模块规则
+模块有入口文件和对外提供的方法（Method）组合而成。
+
+![](./module.png)
+
+1、模块A向`base`注册M1方法
+
+2、模块B向`base`获取并调用M1方法
+
+下面通过登录模块(`wklogin`)和通用ui模块(`wkuikit`)举例说明
+
+我们常见的需求在app内点击`退出登录`时，需退出应用回到应用登录页面。由于我们应用首页和登录页面不在同一个模块内，并且相互直接并没有依赖关系，无法直接访问登录页面。这时就需要通过模块规则实现该功能。
+
+在登录模块的入口文件中的init方法添加页面跳转监听
+
+`kotlin`
+```kotlin
+EndpointManager.getInstance().setMethod(
+            "show_login_view"
+        ) { `object` ->
+            // 跳转到登录页面
+            if (`object` is Context) {
+                `object`.startActivity(Intent(`object`, LoginActivity::class.java))
+            }
+            null
+        }
+```
+`java`
+```java
+EndpointManager.getInstance().setMethod("show_login_view", object -> {
+            // 跳转到登录页面
+            Intent intent = new Intent((Context)object, LoginActivity.class);
+                ((Context)object).startActivity(intent);
+            return null;
+        });
+```
+在通用模块点击`退出登录`按钮时跳转到登录页面
+
+`kotlin`
+```kotlin
+// 显示登录页面
+EndpointManager.getInstance().invoke("show_login_view",this)
+```
+`java`
+```java
+// 显示登录页面
+EndpointManager.getInstance().invoke("show_login_view",this)
+```
+注意`setMethod`和`invokeMethod`的`sid`必须一致，否则无法实现模块直接的访问。如上面实现的调整到登录页面的sid都为`show_login_view`
+
+### 模块总结
+整个过程分为三步
+
+1、新模块需依赖`base`模块
+2、新模块编写模块入口文件
+3、编写自己的模块方法

@@ -111,6 +111,14 @@ export const sidebar: DefaultTheme.Sidebar = {
 			text: "其他",
 			collapsed: false,
 			items: [
+				{
+					text: "模块引入",
+					collapsed: false,
+					items:[
+						{text: "非源码", link: "/dev/android/aar_import"},
+						{text: "源码", link: "/dev/android/code_import"},
+					]
+				},
 				{ text: "常见问题", link: "/dev/android/question" },
 			],
 		}
