@@ -16,7 +16,7 @@ export default defineConfig({
 		["link", { rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
 		["link", { rel: "stylesheet", href: "/css/fancybox.css" }],
 		["script", { src: "/js/fancybox.umd.js" }],
-		["script", { src: "https://hm.baidu.com/hm.js?219604efa41d5fcab346766087ead60a" }], // 百度统计
+		["script", { src: "https://hm.baidu.com/hm.js?945767791d09113d72014cd801857369" }], // 百度统计
 	],
 	markdown: {
 		theme: {

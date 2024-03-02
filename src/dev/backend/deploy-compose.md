@@ -32,7 +32,7 @@ vi docker-compose.yaml
 version: '3.1'
 services:
   wukongim:  # 唐僧叨叨通讯服务（悟空IM）
-    image: registry.cn-shanghai.aliyuncs.com/wukongim/wukongim:latest
+    image: registry.cn-shanghai.aliyuncs.com/wukongim/wukongim:v1.2
     restart: always
     ports:
       # - "5001:5001" # http api端口（业务端调用，仅限内网开放） 

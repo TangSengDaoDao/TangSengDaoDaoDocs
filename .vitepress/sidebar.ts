@@ -83,6 +83,7 @@ export const sidebar: DefaultTheme.Sidebar = {
 			text: "其他",
 			collapsed: false,
 			items: [
+				{ text: "模块引入", link: "/dev/ios/moduleimport" },
 				{ text: "常见问题", link: "/dev/ios/question" },
 			],
 		}
@@ -137,6 +138,7 @@ export const sidebar: DefaultTheme.Sidebar = {
 			text: "其他",
 			collapsed: false,
 			items: [
+				{ text: "模块引入", link: "/dev/web/moduleimport" },
 				{ text: "常见问题", link: "/dev/web/question" },
 			],
 		}
