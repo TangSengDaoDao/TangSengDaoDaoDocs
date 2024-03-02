@@ -49,8 +49,9 @@ services:
       - WK_DATASOURCE_ADDR=http://tangsengdaodaoserver:8090/v1/datasource
       - WK_DATASOURCE_CHANNELINFOON=true
       - WK_TOKENAUTHON=true  
+      - WK_WHITELISTOFFOFPERSON=false # 是否关闭个人白名单功能
   tangsengdaodaoserver:  # 唐僧叨叨的业务服务
-    image: registry.cn-shanghai.aliyuncs.com/wukongim/tangsengdaodaoserver:latest
+    image: registry.cn-shanghai.aliyuncs.com/wukongim/tangsengdaodaoserver:v1.5
     restart: always
     command: "api"
     healthcheck:
