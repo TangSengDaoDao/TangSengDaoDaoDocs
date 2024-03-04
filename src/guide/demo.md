@@ -9,9 +9,9 @@
 |:---:|:---:|
 |![](download/android.png)|![](download/iOS.png)|
 
-| Web端 | Windows端 | MAC端 | Ubuntun端 |
-|:---:|:---:|:---:|:---:|
-|[点击体验](https://web.botgate.cn)|[点击下载](https://file.githubim.com/download/tangsengdaodao_x64.msi)|[点击下载](https://file.githubim.com/download/tangsengdaodao_x64.dmg)|[点击下载](https://file.githubim.com/download/tangsengdaodao_amd64.deb)|
+| Web端 | Windows端 | MAC端 |
+|:---:|:---:|:---:|
+|[点击体验](https://web.botgate.cn)|[点击下载](https://file.githubim.com/download/TangSengDaoDao-latest.exe)|[点击下载](https://file.githubim.com/download/TangSengDaoDao-latest.dmg)|
 
 
 `app端在登录页面长按标题可以进入手机号登录`
