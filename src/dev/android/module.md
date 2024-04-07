@@ -44,7 +44,7 @@ api project(':模块名称')
 ```
 #### 第三步
 在主程序的`application` 中注入模块。如模块的application文件名为`WKFileApplication`则注册代码如下
-```koltin
+```kotlin
 // 注册模块
 WKFileApplication.instance.init(this)
 ```
