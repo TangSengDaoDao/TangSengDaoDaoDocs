@@ -33,12 +33,12 @@ class WKFileApplication private constructor() {
 #### 第二步
 依赖基础模块和`app`模块引入该模块。
 在新模块的`build.gradle`文件中添加对`base`模块的依赖
-```gradle
+```groovy
 // 依赖base模块
 api project(':wkbase')
 ```
 在`app`模块中添加对新模块的引入
-```gradle
+```groovy
 // 添加新模块。
 api project(':模块名称')
 ```
