@@ -6,7 +6,7 @@
 
  在项目的`MyLibs`目录中新建文件夹`wkgroupmanage`，将`wkgroupmanager_v1.aar`文件复制到该目录下。并在`wkgroupmanage`文件夹下新建`build.gradle`文件，将以下代码复制到该文件中。
 
- ```gradle
+ ```groovy
  configurations.maybeCreate("default")
 artifacts.add("default", file('wkgroupmanager_v1.aar'))
  ```
@@ -17,12 +17,12 @@ artifacts.add("default", file('wkgroupmanager_v1.aar'))
 #### 第二步
 
 在项目的`settings.gradle`文件的最后面添加
-```gradle
+```groovy
 include ':MyLibs:wkgroupmanager'
 ```
 #### 第三步
 在项目的`app`模块的`build.gradle`文件中添加以下代码，并执行`Sync Now`
-```gradle
+```groovy
 implementation project(path: ':MyLibs:wkgroupmanage')
 ```
 如下图所示
