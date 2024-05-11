@@ -55,6 +55,7 @@ export const sidebar: DefaultTheme.Sidebar = {
 			text: "其他",
 			collapsed: false,
 			items: [
+				{ text: "模块引入", link: "/dev/backend/moduleimport" },
 				{ text: "常见问题", link: "/dev/backend/question" },
 			],
 		}

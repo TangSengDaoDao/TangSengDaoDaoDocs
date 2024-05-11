@@ -9,14 +9,14 @@
 |:---:|:---:|
 |![](download/android.png)|![](download/iOS.png)|
 
-| Web端 | Windows端 | MAC端 |
-|:---:|:---:|:---:|
-|[点击体验](https://web.botgate.cn)|[点击下载](https://file.githubim.com/download/TangSengDaoDao-latest.exe)|[点击下载](https://file.githubim.com/download/TangSengDaoDao-latest.dmg)|
+| Web端 | Windows端 | MAC端 |  MAC端（最新芯片） |
+|:---:|:---:|:---:|:---:|
+|[点击体验](https://web.botgate.cn)|[点击下载](https://file.githubim.com/download/TangSengDaoDao-latest.exe)|[点击下载](https://file.githubim.com/download/TangSengDaoDao-latest.dmg)| [点击下载](https://file.githubim.com/download/TangSengDaoDao-latest-arm64.dmg) |
 
 
-`app端在登录页面长按标题可以进入手机号登录`
 
-演示账号：
+
+演示账号：(`app端在登录页面长按标题可以进入手机号登录`)
 
 | 账号 | 密码 |
 |:---:|:---:|
@@ -39,3 +39,10 @@
 |![](https://file.githubim.com/screenshot/weblogin.webp)|![](https://file.githubim.com/screenshot/apm.webp)| ![](https://file.githubim.com/screenshot/other.webp) |
 
 
+#### PC
+
+![](https://file.githubim.com/screenshot/pc11.png)
+
+![](https://file.githubim.com/screenshot/pc22.png)
+
+![](https://file.githubim.com/screenshot/pc33.png)
