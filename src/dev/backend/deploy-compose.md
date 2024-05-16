@@ -74,14 +74,14 @@ services:
     image: registry.cn-shanghai.aliyuncs.com/wukongim/tangsengdaodaoweb:latest
     restart: always
     environment:
-      - API_URL=http://${EXTERNAL_IP}:8090/
+      - API_URL=http://tangsengdaodaoserver:8090/
     ports:
       - "82:80"
   tangsengdaodaomanager:  # 唐僧叨叨的后台管理系统
     image: registry.cn-shanghai.aliyuncs.com/wukongim/tangsengdaodaomanager:latest
     restart: always
     environment:
-      - API_URL=http://${EXTERNAL_IP}:8090/
+      - API_URL=http://tangsengdaodaoserver:8090/
     ports:
       - "83:80"
   minio: # minio文件管理服务
