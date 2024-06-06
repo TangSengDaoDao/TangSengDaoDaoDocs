@@ -9,12 +9,15 @@ hero:
   text: 让企业轻松拥有自己的即时通讯
   tagline: 历时八年时间打造的运营级别的开源即时通讯聊天软件(WuKongIM提供通讯动力)
   actions:
-   	- theme: brand
-      text: 马上开始
+    - theme: brand
+      text: 什么是唐僧叨叨?
       link: /guide/
     - theme: alt
       text: GitHub
       link: https://github.com/TangSengDaoDao/TangSengDaoDaoServer
+    - theme: alt
+      text: 私有化部署
+      link: /guide/quickstart
 
 features:
   - icon: <span class="i-carbon:api"></span>
@@ -22,7 +25,7 @@ features:
     details: 服务端源码，APP源码，Web/PC端源码全部开源，Apache2.0开源协议（可商用），没人能拿捏你
   - icon: <span class="i-carbon:deployment-pattern"></span>
     title: 私有化部署
-    details: 所有程序和数据都在自己的服务器上，不用担心数据泄露，不用担心数据被用于其他用途  
+    details: 所有程序和数据都在自己的服务器上，不用担心数据泄露，不用担心数据被用于其他用途
   - icon: <span class="i-carbon:ibm-cloud-pak-integration"></span>
     title: 消息必达
     details: 采用 tcp + ack机制，保证消息必达，支持离线消息，支持消息漫游。
