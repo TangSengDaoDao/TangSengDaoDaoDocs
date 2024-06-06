@@ -89,6 +89,10 @@ zip tangsengdaodao.zip tangsengdaodao
 
 ## 访问 TangSengDaoDao
 
+::: tip 提醒
+- 查看可以[开放端口](./port)
+:::
+
 ### 1.访问悟空 IM 监控
 
 ::: tip 提醒

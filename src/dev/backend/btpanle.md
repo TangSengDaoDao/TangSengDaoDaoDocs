@@ -32,9 +32,9 @@ wget -O install_panel.sh https://download.bt.cn/install/0/loongarch64/loongarch6
 
 ![安装docker和或docker-compose](./btpanle1.png)
 
-## 添加 TSDaoDao Compose 模版
+## 添加 TangSengDaoDao Compose 模版
 
-::: info **文件导入创建 `TSDaoDao Compose` 模版**
+::: info **文件导入创建 `TangSengDaoDao Compose` 模版**
 
 1. 克隆 [https://github.com/TangSengDaoDao/appstore](https://github.com/TangSengDaoDao/appstore)
 
@@ -249,18 +249,17 @@ TS_ADMINPWD=admin1234567
 
 ![.env](./btpanle4.png)
 
-4. 添加`tsdaodao` Compose 模版
+4. 添加`tangsengdaodao` Compose 模版
 
 ![Compose 模版](./btpanle5.png)
 
-## 安装 TSDaoDao
+## 安装 TangSengDaoDao
 
-![安装 TSDaoDao](./btpanle6.png)
+![安装 TangSengDaoDao](./btpanle6.png)
 
-## 访问 TSDaoDao
+## 访问 TangSengDaoDao
 
 ::: tip 提醒
-
 - 查看可以[开放端口](./port)
 :::
 
