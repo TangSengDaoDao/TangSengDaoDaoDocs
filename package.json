@@ -39,6 +39,5 @@
   "engines": {
     "node": "^14.18.0 || >=18.0.0"
   },
-  "packageManager": "pnpm@7.9.5",
   "license": "ISC"
 }
