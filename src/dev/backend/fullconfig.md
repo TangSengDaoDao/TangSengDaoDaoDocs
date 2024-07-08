@@ -63,7 +63,7 @@ uniSMS:
   templateId: "" # unisms TemplateId 验证码变量名为code  
 
 #################### 文件服务 ####################
-fileService: "minio" # 文件服务 minio or aliyunOSS or seaweedFS
+fileService: "minio" # 文件服务 minio or aliyunOSS or seaweedFS or qiniu
 minio: # minio配置
   url: "" # minio地址 格式：http://xx.xx.xx.xx:9000
   accessKeyID: "" # minio accessKeyID
@@ -76,6 +76,11 @@ oss:  # aliyun oss配置
   accessKeySecret: "" # oss accessKeySecret
 seaweed: # seaweed配置
   url: ""   # seaweed地址 格式：http://xx.xx.xx.xx:9000
+qiniu:            # 七牛云配置
+  url: ""         # 七牛云对象存储请求域名，例：http://cdn.tsdaodao.com
+  bucketName: ""  # 七牛云对象存储 bucket空间名称
+  accessKey: ""   # 七牛云密钥 AccessKey
+  secretKey: ""   # 七牛云密钥 secretKey
 
 #################### 推送配置 ####################
 push:
