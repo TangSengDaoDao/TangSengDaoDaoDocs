@@ -195,6 +195,8 @@ TS_FILESERVICE=minio
 TS_AVATAR_DEFAULTBASEURL=https://api.multiavatar.com/{avatar}.png
 # 唐僧叨叨后台管理系统的管理员密码,用户名为 superAdmin，可随机填写(至少8位)
 TS_ADMINPWD=admin1234567
+# 唐僧叨叨的文件服务地址
+TS_MINIO_UPLOADURL=http://minio:9000
 
 
 ```
