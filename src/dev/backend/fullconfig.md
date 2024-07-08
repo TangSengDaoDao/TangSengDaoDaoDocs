@@ -24,7 +24,7 @@ eventPoolSize: 100 # 事件池大小
 
 #################### 悟空IM配置 ####################
 wukongIM:
-  apiURL: "" # 悟空IM的api地址 格式： http://xx.xx.xx.xx:5100
+  apiURL: "" # 悟空IM的api地址 格式： http://xx.xx.xx.xx:5001
   managerToken: "" # 悟空IM的管理者token 悟空IM配置了就需要填写，没配置就不需要
 
 #################### db ####################
