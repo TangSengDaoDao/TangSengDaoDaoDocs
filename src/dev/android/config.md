@@ -10,8 +10,14 @@
 WKApiConfig.initBaseURL("https://xx.x.xx.x:8090") //改为你自己服务的IP或域名
 ```
 ### 配置音视频服务器地址
-在`wkrtc`模块中的`WKRTCApplication`文件的`getList`方法配置服务器地址。修改如下
+在`TSApplication.kt`模块中的`initAll()`方法中注册音视频模块需要传递rtc服务器信息。如下所示
 ```kotlin
+private fun initAll() {
+    ...
+    // 注册音视频模块
+    WKUIRTCApplication.init(getList()) 
+}
+
 private fun getList(): ArrayList<IceServer> {
         val iceServer = IceServer.builder(
             // rtc服务器地址
