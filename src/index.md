@@ -15,7 +15,7 @@ hero:
     - theme: alt
       text: GitHub
       link: https://github.com/TangSengDaoDao/TangSengDaoDaoServer
-    - theme: alt
+    - theme: cta buy
       text: 私有化部署
       link: /guide/quickstart
 

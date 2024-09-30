@@ -10,7 +10,8 @@ git clone https://github.com/TangSengDaoDao/TangSengDaoDaoWeb.git
 
 ```shell
 
-cd TangSengDaoDaoWeb 
+cd TangSengDaoDaoWeb
+
 
 ```
 
