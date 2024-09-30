@@ -1,12 +1,12 @@
 import { h } from "vue";
 import type { EnhanceAppContext } from "vitepress";
 import Theme from "vitepress/theme";
-import { enhanceAppWithTabs } from "vitepress-plugin-tabs/client";
 
 import HomePreview from "./components/HomePreview.vue";
 
 import "./styles/var.css";
 import "./styles/custom.css";
+import 'virtual:group-icons.css';
 import 'uno.css';
 
 
@@ -19,6 +19,5 @@ export default {
 		});
 	},
 	enhanceApp({ app }: EnhanceAppContext) {
-		enhanceAppWithTabs(app);
 	},
 };

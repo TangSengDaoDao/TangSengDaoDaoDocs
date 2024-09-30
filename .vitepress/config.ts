@@ -1,11 +1,12 @@
 import { defineConfig } from "vitepress";
-import { tabsMarkdownPlugin } from "vitepress-plugin-tabs";
 import mdItCustomAttrs from "markdown-it-custom-attrs";
+import { groupIconMdPlugin, groupIconVitePlugin } from 'vitepress-plugin-group-icons';
 
 import UnoCSS from "unocss/vite";
 
 import { navbar } from "./navbar";
 import { sidebar } from "./sidebar";
+import { builtinIcons } from './builtin'
 
 export default defineConfig({
 	title: "唐僧叨叨",
@@ -26,7 +27,7 @@ export default defineConfig({
 		},
 		config: (md) => {
 			md.use(mdItCustomAttrs, "image", { "data-fancybox": "gallery" });
-			md.use(tabsMarkdownPlugin);
+			md.use(groupIconMdPlugin);
 		},
 	},
 	lastUpdated: true,
@@ -78,6 +79,19 @@ export default defineConfig({
 		server: {
 			host: "0.0.0.0",
 		},
-		plugins: [UnoCSS()],
+		plugins: [UnoCSS(), groupIconVitePlugin({
+			customIcon: {
+				git: 'vscode-icons:file-type-git',
+				scss: 'vscode-icons:file-type-scss2',
+        css: 'vscode-icons:file-type-css',
+				web: 'vscode-icons:file-type-map',
+				electron: 'logos:electron',
+				mac: 'vscode-icons:file-type-applescript',
+				win: 'logos:microsoft-windows-icon',
+				linx: 'logos:linux-tux',
+				terminal: 'vscode-icons:file-type-powershell',
+				...builtinIcons
+			}
+		})],
 	},
 });
