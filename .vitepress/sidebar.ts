@@ -163,6 +163,14 @@ export const sidebar: DefaultTheme.Sidebar = {
 			],
 		},
 		{
+			text: "用户手册",
+			collapsed: false,
+			items: [
+				{ text: "通用功能", link: "/dev/manager/user-manual/general" },
+				{ text: "首页", link: "/dev/manager/user-manual/dashboard" },
+			],
+		},
+		{
 			text: "二次开发",
 			collapsed: false,
 			items: [
