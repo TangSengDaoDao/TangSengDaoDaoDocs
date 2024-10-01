@@ -82,6 +82,8 @@ export default defineConfig({
 		plugins: [UnoCSS(), groupIconVitePlugin({
 			customIcon: {
 				git: 'vscode-icons:file-type-git',
+				github: 'logos:github-octocat',
+				gitee: 'simple-icons:gitee',
 				scss: 'vscode-icons:file-type-scss2',
         css: 'vscode-icons:file-type-css',
 				web: 'vscode-icons:file-type-map',

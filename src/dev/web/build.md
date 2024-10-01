@@ -43,9 +43,17 @@
 
 1. 获取源码
 
-```shell [git]
+::: code-group
+
+```shell [github]
 git clone https://github.com/TangSengDaoDao/TangSengDaoDaoWeb.git
 ```
+
+```shell [gitee]
+git clone https://gitee.com/TangSengDaoDao/TangSengDaoDaoWeb.git
+```
+
+:::
 
 2. 跳转目录`TangSengDaoDaoWeb`
 

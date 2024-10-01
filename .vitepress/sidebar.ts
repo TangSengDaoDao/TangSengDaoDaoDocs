@@ -152,6 +152,31 @@ export const sidebar: DefaultTheme.Sidebar = {
 			],
 		}
 	],
+	"/dev/manager": [
+		{
+			text: "快速开始",
+			collapsed: false,
+			items: [
+				{ text: "介绍", link: "/dev/manager/intro" },
+				{ text: "项目编译", link: "/dev/manager/build" },
+				{ text: "项目配置", link: "/dev/manager/config" },
+			],
+		},
+		{
+			text: "二次开发",
+			collapsed: false,
+			items: [
+				{ text: "项目结构", link: "/dev/manager/structure" },
+			],
+		},
+		{
+			text: "其他",
+			collapsed: false,
+			items: [
+				{ text: "常见问题", link: "/dev/manager/question" },
+			],
+		}
+	],
 	"/demo": [
 		{ text: "Demo", link: "/demo/" },
 	],
