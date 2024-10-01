@@ -190,6 +190,13 @@ export const sidebar: DefaultTheme.Sidebar = {
 						{ text: "违禁词列表", link: "/dev/manager/user-manual/message/prohibitwords" },
 					]
 				},
+				{ text: "举报",
+					collapsed: false,
+					items: [
+						{ text: "举报用户", link: "/dev/manager/user-manual/report/user" },
+						{ text: "举报群聊", link: "/dev/manager/user-manual/report/group" },
+					]
+				},
 				{ text: "工作台",
 					collapsed: false,
 					items: [
