@@ -27,7 +27,7 @@ export const navbar: DefaultTheme.NavItem[] = [
 		activeMatch: "^/dev/web"
 	},
 	{
-		text: "管理后台",
+		text: "后台管理",
 		link: "/dev/manager/intro",
 		activeMatch: "^/dev/manager"
 	},
