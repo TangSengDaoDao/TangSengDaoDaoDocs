@@ -197,13 +197,13 @@ export const sidebar: DefaultTheme.Sidebar = {
 						{ text: "举报群聊", link: "/dev/manager/user-manual/report/group" },
 					]
 				},
-				{ text: "工作台",
-					collapsed: false,
-					items: [
-						{ text: "应用管理", link: "/dev/manager/user-manual/workplace/manage" },
-						{ text: "工作台设置", link: "/dev/manager/user-manual/workplace/configuration" },
-					]
-				},
+				// { text: "工作台",
+				// 	collapsed: false,
+				// 	items: [
+				// 		{ text: "应用管理", link: "/dev/manager/user-manual/workplace/manage" },
+				// 		{ text: "工作台设置", link: "/dev/manager/user-manual/workplace/configuration" },
+				// 	]
+				// },
 				{ text: "工具",
 					collapsed: false,
 					items: [
