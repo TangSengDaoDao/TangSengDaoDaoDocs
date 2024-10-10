@@ -214,6 +214,15 @@ TS_MINIO_UPLOADURL=http://minio:9000
 
 `TS_SMSCODE为手机注册默认的短信验证码`
 
+## 更多配置
+
+更多配置请参考 [配置说明](./fullconfig)
+
+所有配置都支持转换成环境变量，然后配置在`.env`文件中  
+
+转换过程查看 [配置转换](./fullconfig.html#配置转环境变量)
+
+
 ## 启动
 
 ```shell
@@ -226,7 +235,3 @@ docker-compose up -d （新版本是 docker compose up -d）
 ## 端口说明
 
 [端口说明](./port)
-
-## 更多配置信息
-
-[配置说明](./fullconfig)
