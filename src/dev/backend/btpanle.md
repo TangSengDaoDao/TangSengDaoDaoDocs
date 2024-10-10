@@ -49,18 +49,18 @@ wget -O install_panel.sh https://download.bt.cn/install/0/loongarch64/loongarch6
 	``` sh
 	zip tangsengdaodao.zip tangsengdaodao
 	```
-4. 将 `tangsengdaodao.zip` 上传到 `/home/tangsangdaodao` 目录
-5. 在 `/home/tangsangdaodao` 目录，解压 `tangsengdaodao.zip`
+4. 将 `tangsengdaodao.zip` 上传到 `/home` 目录
+5. 在 `/home` 目录，解压 `tangsengdaodao.zip`
 	``` sh
 	unzip tangsengdaodao.zip
 	```
 :::
 
-1. 在 `/home` 目录新建文件 `tangsangdaodao`
+1. 在 `/home` 目录新建文件 `tangsengdaodao`
 
 ![新建文件tsdd](./btpanle2.png)
 
-2. 在`/home/tangsangdaodao`目录新建`docker-compose.yaml`
+2. 在`/home/tangsengdaodao`目录新建`docker-compose.yaml`
 
 ```yaml
 version: "3.1"
@@ -181,7 +181,7 @@ services:
 
 ![docker-compose.yaml](./btpanle3.png)
 
-3. 在`/home/tangsangdaodao`目录新建`.env`
+3. 在`/home/tangsengdaodao`目录新建`.env`
 
 ```shell
 # ######### 基础配置 #########

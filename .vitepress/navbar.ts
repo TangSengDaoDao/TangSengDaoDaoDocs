@@ -22,9 +22,14 @@ export const navbar: DefaultTheme.NavItem[] = [
 		activeMatch: "^/dev/android"
 	},
 	{
-		text: "Web/PC",
+		text: "Web",
 		link: "/dev/web/intro",
 		activeMatch: "^/dev/web"
+	},
+	{
+		text: "后台管理",
+		link: "/dev/manager/intro",
+		activeMatch: "^/dev/manager"
 	},
 	{
 		text: "收费模块",

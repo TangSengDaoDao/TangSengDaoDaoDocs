@@ -153,6 +153,88 @@ export const sidebar: DefaultTheme.Sidebar = {
 			],
 		}
 	],
+	"/dev/manager": [
+		{
+			text: "快速开始",
+			collapsed: false,
+			items: [
+				{ text: "介绍", link: "/dev/manager/intro" },
+				{ text: "项目编译", link: "/dev/manager/build" },
+				{ text: "项目配置", link: "/dev/manager/config" },
+			],
+		},
+		{
+			text: "用户手册",
+			collapsed: false,
+			items: [
+				{ text: "通用功能", link: "/dev/manager/user-manual/general" },
+				{ text: "首页", link: "/dev/manager/user-manual/dashboard" },
+				{ text: "用户",
+					collapsed: false,
+					items: [
+						{ text: "新增用户", link: "/dev/manager/user-manual/user/adduser" },
+						{ text: "用户列表", link: "/dev/manager/user-manual/user/userlist" },
+						{ text: "封禁用户列表", link: "/dev/manager/user-manual/user/disablelist" },
+					]
+				},
+				{ text: "群组",
+					collapsed: false,
+					items: [
+						{ text: "群列表", link: "/dev/manager/user-manual/group/grouplist" },
+						{ text: "封禁群列表", link: "/dev/manager/user-manual/group/groupdisablelist" },
+					]
+				},
+				{ text: "消息",
+					collapsed: false,
+					items: [
+						{ text: "消息记录", link: "/dev/manager/user-manual/message/sendmsglist" },
+						{ text: "违禁词列表", link: "/dev/manager/user-manual/message/prohibitwords" },
+					]
+				},
+				{ text: "举报",
+					collapsed: false,
+					items: [
+						{ text: "举报用户", link: "/dev/manager/user-manual/report/user" },
+						{ text: "举报群聊", link: "/dev/manager/user-manual/report/group" },
+					]
+				},
+				// { text: "工作台",
+				// 	collapsed: false,
+				// 	items: [
+				// 		{ text: "应用管理", link: "/dev/manager/user-manual/workplace/manage" },
+				// 		{ text: "工作台设置", link: "/dev/manager/user-manual/workplace/configuration" },
+				// 	]
+				// },
+				{ text: "工具",
+					collapsed: false,
+					items: [
+						{ text: "APP升级", link: "/dev/manager/user-manual/tool/appupdate" },
+					]
+				},
+				{ text: "设置",
+					collapsed: false,
+					items: [
+						{ text: "通用设置", link: "/dev/manager/user-manual/setting/currencysetting" },
+						{ text: "修改登录密码", link: "/dev/manager/user-manual/setting/updatepwd" },
+					]
+				},
+			],
+		},
+		{
+			text: "二次开发",
+			collapsed: false,
+			items: [
+				{ text: "项目结构", link: "/dev/manager/structure" },
+			],
+		},
+		{
+			text: "其他",
+			collapsed: false,
+			items: [
+				{ text: "常见问题", link: "/dev/manager/question" },
+			],
+		}
+	],
 	"/demo": [
 		{ text: "Demo", link: "/demo/" },
 	],
