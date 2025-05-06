@@ -31,6 +31,7 @@ export const sidebar: DefaultTheme.Sidebar = {
 				{ text: "Docker Compose部署", link: "/dev/backend/deploy-compose" },
 				{ text: "1Panel部署", link: "/dev/backend/1panel" },
 				{ text: "宝塔部署", link: "/dev/backend/btpanle" },
+				{ text: "Rainbond部署", link: "/dev/backend/rainbond" },
 				// { text: "K8S部署", link: "/dev/backend/k8s" },
 				{ text: "端口说明", link: "/dev/backend/port" },
 				{ text: "验证部署", link: "/dev/backend/verify" },
