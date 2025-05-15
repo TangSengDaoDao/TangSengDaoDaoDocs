@@ -67,7 +67,7 @@ version: "3.1"
 services:
   wukongim:
     # 唐僧叨叨通讯服务（悟空IM）
-    image: registry.cn-shanghai.aliyuncs.com/wukongim/wukongim:v1.2
+    image: registry.cn-shanghai.aliyuncs.com/wukongim/wukongim:v2
     container_name: ${CONTAINER_NAME}-tsdd-wkim
     restart: always
     ports:

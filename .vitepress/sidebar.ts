@@ -10,7 +10,7 @@ export const sidebar: DefaultTheme.Sidebar = {
 				{ text: "快速入口", link: "/guide/fastentry" },
 				{ text: "问题解决途径", link: "/guide/support" },
 				{ text: "线上Demo体验", link: "/guide/demo" },
-				{ text: "自己搭建体验", link: "/guide/quickstart" },
+				// { text: "自己搭建体验", link: "/guide/quickstart" },
 			],
 		},
 		{
@@ -28,7 +28,7 @@ export const sidebar: DefaultTheme.Sidebar = {
 			collapsed: false,
 			items: [
 				// { text: "一键部署（推荐）", link: "/dev/backend/deploy" },
-				{ text: "Docker Compose部署", link: "/dev/backend/deploy-compose" },
+				{ text: "Docker Compose部署(推荐)", link: "/dev/backend/deploy-compose" },
 				{ text: "小皮面板部署", link: "/dev/backend/xp-panel" },
 				{ text: "1Panel部署", link: "/dev/backend/1panel" },
 				{ text: "宝塔部署", link: "/dev/backend/btpanle" },
@@ -37,7 +37,7 @@ export const sidebar: DefaultTheme.Sidebar = {
 				{ text: "端口说明", link: "/dev/backend/port" },
 				{ text: "验证部署", link: "/dev/backend/verify" },
 				{ text: "连接MYSQL", link: "/dev/backend/deploy-mysql" },
-				{ text: "nginx配置(可选)", link: "/dev/backend/config-nginx" },
+				// { text: "nginx配置(可选)", link: "/dev/backend/config-nginx" },
 			],
 		},
 		{

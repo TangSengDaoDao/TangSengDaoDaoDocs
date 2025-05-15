@@ -60,7 +60,11 @@ uniSMS:
   accessKeyID: "" # unisms accessKeyID
   signature: "" # unisms signature
   accessKeySecret: "" # unisms accessKeySecret 简易模式可以为空
-  templateId: "" # unisms TemplateId 验证码变量名为code  
+  templateId: "" # unisms TemplateId 验证码变量名为code 
+smsbao: # 短信宝 https://www.smsbao.com/
+  account: "" 
+  apiKey: "" 
+  template: "" 
 
 #################### 文件服务 ####################
 fileService: "minio" # 文件服务 minio or aliyunOSS or seaweedFS or qiniu
@@ -68,6 +72,8 @@ minio: # minio配置
   url: "" # minio地址 格式：http://xx.xx.xx.xx:9000
   accessKeyID: "" # minio accessKeyID
   secretAccessKey: ""  # minio secretAccessKey
+  uploadURL: "" # minio 文件上传基地址 如果为空则使用url配置的地址，上传地址建议使用内网地址
+  downloadURL: "" # minio下载地址 如果为空则使用url配置的地址
 oss:  # aliyun oss配置
   endpoint: "" # oss endpoint 例如 oss-cn-hangzhou.aliyuncs.com
   bucketName: "" # bucketName 例如： tangsengdaodao
@@ -111,6 +117,10 @@ push:
     appKey: "" # oppo推送appKey
     appSecret: "" # oppo推送appSecret
     masterSecret: "" # oppo推送masterSecret
+  firebase: # google firebase推送
+    jsonPath: ""  # firebase推送json路径
+    projectId: "" # firebase推送projectId
+    packageName: "" # firebase推送包名 例如：com.xinbida.tangsengdaodao
 
 #################### 注册 ####################  
 register:

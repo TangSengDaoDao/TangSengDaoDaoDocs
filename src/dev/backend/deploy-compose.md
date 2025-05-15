@@ -1,5 +1,5 @@
 
-# Docker Compose方式部署
+# Docker Compose方式部署(推荐)
 
 
 ## 环境要求
@@ -31,7 +31,7 @@ vi docker-compose.yaml
 version: '3.1'
 services:
   wukongim:  # 唐僧叨叨通讯服务（悟空IM）
-    image: registry.cn-shanghai.aliyuncs.com/wukongim/wukongim:v1.2
+    image: registry.cn-shanghai.aliyuncs.com/wukongim/wukongim:v2
     restart: always
     ports:
       # - "5001:5001" # http api端口（业务端调用，仅限内网开放）
@@ -91,7 +91,7 @@ services:
       tangsengdaodaoserver:
         condition: service_healthy      
   minio: # minio文件管理服务
-    image: minio/minio:RELEASE.2023-07-18T17-49-40Z # use a remote image
+    image: registry.cn-shanghai.aliyuncs.com/wukongim/minio:RELEASE.2023-07-18T17-49-40Z # minio/minio:RELEASE.2023-07-18T17-49-40Z
     expose:
       - "9000"
       - "9001"
@@ -110,7 +110,7 @@ services:
     volumes:
       - ./miniodata:/data
   mysql:  # mysql数据库
-    image: mysql:8.0.33
+    image: registry.cn-shanghai.aliyuncs.com/wukongim/mysql:8.0.33 # mysql:8.0.33
     command: --default-authentication-plugin=mysql_native_password
     healthcheck:
       test: ["CMD", "mysqladmin" ,"ping", "-h", "localhost"]
@@ -121,7 +121,7 @@ services:
       - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
       - MYSQL_DATABASE=${MYSQL_DATABASE}
   redis:  # redis
-    image: redis:7.2.3
+    image: registry.cn-shanghai.aliyuncs.com/wukongim/redis:7.2.3 # redis:7.2.3
     restart: always
     healthcheck:
       test: ["CMD", "redis-cli", "ping"]
@@ -129,7 +129,7 @@ services:
       timeout: 3s
       retries: 30
   adminer:  # mysql web管理工具 调试用，为了安全生产不要打开
-    image: adminer:latest
+    image: registry.cn-shanghai.aliyuncs.com/wukongim/adminer:latest # adminer:latest
     ports:
       - 8306:8080            
 
@@ -183,6 +183,10 @@ WK_DATASOURCE_CHANNELINFOON=true
 WK_TOKENAUTHON=true  
 # 是否关闭个人白名单功能，默认是开启的，如果关闭发送消息将不做好友关系的判断
 WK_WHITELISTOFFOFPERSON=false 
+#  JWT的密钥
+WK_JWT_SECRET=wk_secret_123
+# 默认安装搜索插件
+WK_PLUGIN_INSTALL=https://gitee.com/WuKongDev/plugins/releases/download/latest/wk.plugin.search-${os}-${arch}.wkp
 
 
 ######### TangSengDaoDao的配置 #########
@@ -198,7 +202,7 @@ TS_SMSCODE=123456
 # 使用文件服务的类型
 TS_FILESERVICE=minio
 # 默认头像获取地址
-TS_AVATAR_DEFAULTBASEURL=https://api.multiavatar.com/{avatar}.png
+TS_AVATAR_DEFAULTBASEURL=https://api.dicebear.com/8.x/avataaars/png?seed={avatar}&size=180 # 备用https://robohash.org/{avatar}
 # 唐僧叨叨后台管理系统的管理员密码,用户名为 superAdmin，可随机填写(至少8位)
 TS_ADMINPWD=admin1234567
 # 唐僧叨叨的文件服务地址
@@ -214,6 +218,8 @@ TS_MINIO_UPLOADURL=http://minio:9000
 - MYSQL_ROOT_PASSWORD: mysql数据库的root用户密码，可随机填写
 
 - MINIO_ROOT_PASSWORD： minio 文件服务的密码，可随机填写(至少8位)
+
+- WK_JWT_SECRET：JWT的密钥，随机填写即可，为了安全建议修改
 
 - TS_ADMINPWD： 唐僧叨叨后台管理系统的管理员密码,用户名为 superAdmin，可随机填写(至少8位)
 
