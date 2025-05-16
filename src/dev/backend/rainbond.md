@@ -112,7 +112,7 @@ curl -o install.sh https://get.rainbond.com && bash ./install.sh
 
 1. 在后台管理创建账号
 
-![在后台管理创建账号](./1panel9.png)
+![在后台管理创建账号](./1panel12.png)
 
 2. 登录界面
 
