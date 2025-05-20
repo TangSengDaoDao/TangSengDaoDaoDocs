@@ -77,6 +77,9 @@ services:
       - API_URL=http://tangsengdaodaoserver:8090/
     ports:
       - "82:80"
+    depends_on:
+      tangsengdaodaoserver:
+        condition: service_healthy      
   tangsengdaodaomanager:  # 唐僧叨叨的后台管理系统
     image: registry.cn-shanghai.aliyuncs.com/wukongim/tangsengdaodaomanager:latest
     restart: always
@@ -84,6 +87,9 @@ services:
       - API_URL=http://tangsengdaodaoserver:8090/
     ports:
       - "83:80"
+    depends_on:
+      tangsengdaodaoserver:
+        condition: service_healthy      
   minio: # minio文件管理服务
     image: minio/minio:RELEASE.2023-07-18T17-49-40Z # use a remote image
     expose:
