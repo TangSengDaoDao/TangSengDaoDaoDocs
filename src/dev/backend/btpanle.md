@@ -56,7 +56,7 @@ wget -O install_panel.sh https://download.bt.cn/install/0/loongarch64/loongarch6
 	```
 :::
 
-1. 在 `/home` 目录新建文件 `tangsengdaodao`
+1. 在 `/home` 目录新建文件夹 `tangsengdaodao`
 
 ![新建文件tsdd](./btpanle2.png)
 
