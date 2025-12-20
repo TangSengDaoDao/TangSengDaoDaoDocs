@@ -19,6 +19,7 @@ export default defineConfig({
 		["link", { rel: "stylesheet", href: "/css/fancybox.css" }],
 		["script", { src: "/js/fancybox.umd.js" }],
 		["script", { src: "https://hm.baidu.com/hm.js?945767791d09113d72014cd801857369" }], // 百度统计
+		["script",{src:"https://widget.tgo-ai.com/tgo-widget-sdk.js?api_key=ak_live_7Lh6h82EoXh9lL4lrqCZjuxfHzv5DX6n"}],
 	],
 	markdown: {
 		theme: {
