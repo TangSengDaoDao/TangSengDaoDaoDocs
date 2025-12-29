@@ -185,8 +185,6 @@ WK_TOKENAUTHON=true
 WK_WHITELISTOFFOFPERSON=false 
 #  JWT的密钥
 WK_JWT_SECRET=wk_secret_123
-# 默认安装搜索插件
-WK_PLUGIN_INSTALL=https://gitee.com/WuKongDev/plugins/releases/download/latest/wk.plugin.search-${os}-${arch}.wkp
 
 
 ######### TangSengDaoDao的配置 #########
