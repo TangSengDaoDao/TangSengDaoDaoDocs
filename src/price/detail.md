@@ -858,6 +858,36 @@
 </table>
 
 
+### 标签模块
+
+<table>
+  <tr>
+    <th>一级</th>
+    <th>二级</th>
+    <th>三级</th>
+  </tr>
+   <tr >
+      <td rowspan="6" colspan="2">标签</td>
+  </tr>
+  <tr>
+       <td >选择联系人新建标签</td>
+  </tr>
+  <tr>
+       <td>标签列表</td>
+  </tr>
+  <tr>
+       <td >标签添加</td>
+  </tr>
+  <tr>
+       <td >标签删除</td>
+  </tr>
+  <tr>
+       <td >标签修改</td>
+  </tr>
+ 
+</table>
+
+
 ### 朋友圈模块
 
 <table>
